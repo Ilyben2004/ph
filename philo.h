@@ -6,21 +6,13 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-
-
-typedef struct  s_called_philo
-{
-    t_private_philo *called_philo;
-    t_private_philo *all_philos;
-    struct timeval start_time;
-} t_called_philo;
-
 typedef struct s_public_philo
 {
     int total_philo;
     int time_die;
     int time_eat;
     int time_sleep;
+    struct timeval start_time;
 
 } t_public_philo;
 
@@ -30,11 +22,21 @@ typedef struct s_private_philo
     int id;
     int last_meal;
     int count_eat;
-    int count_eat;
     t_public_philo *public_philo;
-    pthread_mutex_t *fork;
+    pthread_mutex_t right_fork;
+    pthread_mutex_t left_fork;
+    // pthread_mutex_t *left;11;
 } t_private_philo;
 
-void print_passed_time_in_ms(struct timeval start_time);
+
+// even left -> right
+// odd right->left
+
+// left mine
+// right next
+
+void print_passed_time_in_ms(struct timeval start_time , char * operation , int id);
+void *philo_sim(void *called_philo);
+t_private_philo *init_called_philo(t_private_philo **called_philo, int ac, char **av);
 
 #endif

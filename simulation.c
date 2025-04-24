@@ -1,33 +1,73 @@
 #include "philo.h"
 
-void ft_eat(void *called_philo)
+static void ft_mutex_lock(pthread_mutex_t *left, pthread_mutex_t *right, int id)
 {
-    t_called_philo *philo = (t_called_philo *)called_philo;
-    t_private_philo *philos_array = philo->all_philos;
-    t_public_philo *public_philo = (philos_array)->public_philo;
-    int called_id = philo->called_philo->id;
-    pthread_mutex_lock((philos_array + ((called_id + 1) % philos_array->public_philo->total_philo) ));
-    pthread_mutex_lock(philo->called_philo);
+    if (id % 2 == 1)
+    {
+        pthread_mutex_lock(left);
+        pthread_mutex_lock(right);
+    }
+    else
+    {
+        pthread_mutex_lock(right);
+        pthread_mutex_lock(left);
+    }
 }
 
-void ft_think(void *called_philos)
+static void ft_mutex_unlock(pthread_mutex_t *left, pthread_mutex_t *right, int id)
 {
-    t_called_philo *philo = (t_called_philo *)called_philos;
-    t_private_philo *philos_array = philo->all_philos;
-    t_public_philo *public_philo = (philos_array)->public_philo;
-    int called_id = philo->called_philo->id;
-    printf("im philo %d thinking\n", called_id);
-    print_passed_time_in_ms(philo->start_time);
+    if (id % 2 == 1)
+    {
+        pthread_mutex_unlock(right);
+        pthread_mutex_unlock(left);
+    }
+    else
+    {
+        pthread_mutex_unlock(left);
+        pthread_mutex_unlock(right);
+    }
 }
 
-void ft_sleep(void *philos)
+static void *ft_eat(void *called_philo)
 {
-    t_called_philo *philo = (t_called_philo *)philos;
-    t_private_philo *philos_array = philo->all_philos;
-    int called_id = philo->called_philo->id;
-    printf("im philo %d  sleeping\n", called_id);
-    print_passed_time_in_ms(philo->start_time);
-    usleep(philo->all_philos->public_philo->time_sleep * 1000);
-    printf("im philo %d i wokeup\n");
-    print_passed_time_in_ms(philo->start_time);
+
+    t_private_philo *philo = (t_private_philo *)called_philo;
+
+    int called_id = philo->id;
+    ft_mutex_lock(&philo->left_fork, &philo->right_fork, called_id);
+    usleep(philo->public_philo->time_eat * 1000);
+    philo->count_eat = philo->count_eat + 1;
+    print_passed_time_in_ms(philo->public_philo->start_time, "eating :", called_id);
+    ft_mutex_unlock(&philo->left_fork , &philo->right_fork , called_id );
+    return (NULL);
+}
+
+static void *ft_think(void *called_philos)
+{
+    t_private_philo *philo = (t_private_philo *)called_philos;
+
+    int called_id = philo->id;
+    print_passed_time_in_ms(philo->public_philo->start_time, "thinking : ", called_id);
+    return (NULL);
+}
+
+static void *ft_sleep(void *philos)
+{
+    t_private_philo *philo = (t_private_philo *)philos;
+
+    int called_id = philo->id;
+    usleep(philo->public_philo->time_sleep * 1000);
+    print_passed_time_in_ms(philo->public_philo->start_time, "sleeping : ", called_id);
+    return (NULL);
+}
+
+void *philo_sim(void *called_philo)
+{
+    while (1)
+    {
+        ft_eat(called_philo);
+        ft_sleep(called_philo);
+        ft_think(called_philo);
+    }
+    return (NULL);
 }
