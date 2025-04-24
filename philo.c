@@ -1,6 +1,8 @@
 #include "philo.h"
 
-int main(int ac, char **av)
+int main()
 {
+    t_called_philo *called_philo;
     
+
 }
