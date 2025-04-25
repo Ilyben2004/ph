@@ -4,7 +4,7 @@
 void print_public_philo(t_public_philo *public_philo)
 {
     printf("************* public philo ***********\n");
-    printf("public_philo->time_die = %d \n", public_philo->time_die);
+    printf("public_philo->time_die = %ld \n", public_philo->time_die);
     printf("public_philo->time_eat = %d \n", public_philo->time_eat);
     printf("public_philo->time_sleep = %d\n", public_philo->time_sleep);
     printf("public_philo->total_phil= %d\n", public_philo->total_philo);
@@ -15,7 +15,6 @@ void print_private_philo(t_private_philo *private_philo)
     printf("************* privte _ philo ***********\n");
     printf("private_philo->id = %d \n", private_philo->id);
     printf("private_philo->count_eat = %d \n", private_philo->count_eat);
-    printf("private_philo->last_meal = %d\n", private_philo->last_meal);
     printf("*********************************************\n");
 }
 void test_data(t_private_philo *called_philo)
@@ -45,15 +44,24 @@ int main(int ac, char **av)
     int i = 0;
     while (i < num_philos)
     {
-        pthread_create( &thread_id[i++], NULL, philo_sim, called_philo + i);
+        pthread_create( &thread_id[i], NULL, philo_sim, called_philo + i);
         i++;
     }
+
+    pthread_t monitor;
+    pthread_t monitor_eat;
+    pthread_create(&monitor, NULL, ft_monitor_die, called_philo);
+    pthread_create(&monitor_eat, NULL, ft_monitor_eat, called_philo);
+
     i = 0 ;
     while (i < num_philos)
     {
         pthread_join(thread_id[i] , NULL);
         i++;
     }
+    pthread_join(monitor , NULL);
+    pthread_join(monitor_eat , NULL);
+
 
 
 }

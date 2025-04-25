@@ -9,9 +9,10 @@
 typedef struct s_public_philo
 {
     int total_philo;
-    int time_die;
+    long time_die;
     int time_eat;
     int time_sleep;
+    int how_many_eats;
     struct timeval start_time;
 
 } t_public_philo;
@@ -20,14 +21,14 @@ typedef struct s_private_philo
 {
     pthread_t threadid;
     int id;
-    int last_meal;
+    struct timeval last_meal;
+    int started;
     int count_eat;
     t_public_philo *public_philo;
-    pthread_mutex_t right_fork;
-    pthread_mutex_t left_fork;
+    pthread_mutex_t *right_fork;
+    pthread_mutex_t *left_fork;
     // pthread_mutex_t *left;11;
 } t_private_philo;
-
 
 // even left -> right
 // odd right->left
@@ -35,8 +36,11 @@ typedef struct s_private_philo
 // left mine
 // right next
 
-void print_passed_time_in_ms(struct timeval start_time , char * operation , int id);
+void print_passed_time_in_ms(struct timeval start_time, char *operation, int id);
 void *philo_sim(void *called_philo);
 t_private_philo *init_called_philo(t_private_philo **called_philo, int ac, char **av);
+long get_time_between_2_times (struct  timeval start_time);
+void * ft_monitor_die(void *philos);
+void * ft_monitor_eat(void *philos);
 
 #endif

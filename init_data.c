@@ -10,6 +10,7 @@ t_public_philo *init_public_philo(t_public_philo **init_public_philo, int ac, ch
     (*init_public_philo)->time_die = atoi(av[2]);
     (*init_public_philo)->time_eat = atoi(av[3]);
     (*init_public_philo)->time_sleep = atoi(av[4]);
+    (*init_public_philo)->how_many_eats = atoi(av[5]);
     return (*init_public_philo);
 }
 
@@ -21,12 +22,12 @@ static void init_all_philos(t_private_philo *all_philos, t_public_philo *public_
     while (i < philos_size)
     {
         // (all_philos + i)->public_philo[i].time_die;
-
+        (all_philos + i)->started = 0;
         (all_philos + i)->count_eat = 0;
         (all_philos + i)->id = i + 1;
-        (all_philos + i)->last_meal = -1;
         (all_philos + i)->public_philo = public_philo;
-        pthread_mutex_init(&(all_philos + i)->left_fork, NULL);
+        (all_philos + i)->left_fork = malloc(sizeof( pthread_mutex_t));
+        pthread_mutex_init((all_philos + i)->left_fork, NULL);
         i++;
     }
     i = 0;

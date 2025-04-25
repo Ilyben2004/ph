@@ -3,7 +3,7 @@ CC = gcc
 CFLAGS =  -pthread #-Wall -Wextra -Werror
 
 # Source files and object files
-SRC = philo.c get_time.c init_data.c simulation.c
+SRC = philo.c get_time.c init_data.c simulation.c monitor.c
 OBJ = $(SRC:.c=.o)
 
 # Output executable
