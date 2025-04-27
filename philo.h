@@ -13,6 +13,7 @@ typedef struct s_public_philo
     int time_eat;
     int time_sleep;
     int how_many_eats;
+    int end_sim;
     struct timeval start_time;
 
 } t_public_philo;
@@ -42,5 +43,18 @@ t_private_philo *init_called_philo(t_private_philo **called_philo, int ac, char 
 long get_time_between_2_times (struct  timeval start_time);
 void * ft_monitor_die(void *philos);
 void * ft_monitor_eat(void *philos);
+
+
+
+// parsing functions
+char *skip_spaces(char *num);
+int string_is_all_digit(char * num);
+int parser_check(int ac , char **av);
+
+
+// libft
+int	ft_isdigit(int c);
+long ft_atoi(const char *str);
+
 
 #endif

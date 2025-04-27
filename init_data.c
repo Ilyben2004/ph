@@ -11,6 +11,7 @@ t_public_philo *init_public_philo(t_public_philo **init_public_philo, int ac, ch
     (*init_public_philo)->time_eat = atoi(av[3]);
     (*init_public_philo)->time_sleep = atoi(av[4]);
     (*init_public_philo)->how_many_eats = atoi(av[5]);
+    (*init_public_philo)->end_sim = 0;
     return (*init_public_philo);
 }
 

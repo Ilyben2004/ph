@@ -11,7 +11,6 @@ static void ft_mutex_lock(pthread_mutex_t *left, pthread_mutex_t *right, int id)
     else
     {
         printf("philo %d took right fork return %d\n", id, pthread_mutex_lock(right));
-
         printf("philo %d took left fork return %d\n", id, pthread_mutex_lock(left));
     }
 }
@@ -76,7 +75,7 @@ void *philo_sim(void *called_philo)
     printf("philo %d enter the sim\n", p->id);
     gettimeofday(&p->last_meal, NULL);
     p->started = 1;
-    while (1)
+    while (!p->public_philo->end_sim)
     {
         ft_eat(called_philo);
         ft_sleep(called_philo);
