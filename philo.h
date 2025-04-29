@@ -8,6 +8,7 @@
 
 typedef struct s_public_philo
 {
+    int optional_arg;
     int total_philo;
     long time_die;
     int time_eat;

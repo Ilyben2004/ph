@@ -87,8 +87,12 @@ int helper_func(t_private_philo *p , void (sim_func(void *)))
 void *philo_sim(void *called_philo)
 {
     t_private_philo *p = (t_private_philo *)called_philo;
-    printf("philo %d enter the sim\n", p->id);
-    while (p->count_eat < p->public_philo->how_many_eats)
+    if (p->id % 2 == 0)
+    {
+        usleep(500);
+
+    }
+    while ((p->public_philo->optional_arg == 0) || (p->count_eat < p->public_philo->how_many_eats))
     {
         if (helper_func(called_philo , ft_eat) || helper_func(called_philo , ft_sleep) || helper_func(called_philo , ft_think) )
             break;

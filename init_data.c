@@ -10,10 +10,20 @@ t_public_philo *init_public_philo(t_public_philo **init_public_philo, int ac, ch
     (*init_public_philo)->time_die = atoi(av[2]);
     (*init_public_philo)->time_eat = atoi(av[3]);
     (*init_public_philo)->time_sleep = atoi(av[4]);
-    (*init_public_philo)->how_many_eats = atoi(av[5]);
+    if (ac == 5)
+    {
+        (*init_public_philo)->how_many_eats = -1;
+        (*init_public_philo)->optional_arg = 0;
+    }
+    else if (ac == 6)
+    {
+        (*init_public_philo)->how_many_eats = atoi(av[5]);
+        (*init_public_philo)->optional_arg = 1;
+    }
     (*init_public_philo)->dead_lock = malloc(sizeof(pthread_mutex_t));
-    pthread_mutex_init( (*init_public_philo)->dead_lock,NULL);
+    pthread_mutex_init((*init_public_philo)->dead_lock, NULL);
     (*init_public_philo)->end_sim = 0;
+    printf("init public ended\n");
     return (*init_public_philo);
 }
 
@@ -29,10 +39,10 @@ static void init_all_philos(t_private_philo *all_philos, t_public_philo *public_
         (all_philos + i)->count_eat = 0;
         (all_philos + i)->id = i + 1;
         (all_philos + i)->public_philo = public_philo;
-        (all_philos + i)->left_fork = malloc(sizeof( pthread_mutex_t));
-        (all_philos + i)->eat_lock = malloc(sizeof( pthread_mutex_t));
+        (all_philos + i)->left_fork = malloc(sizeof(pthread_mutex_t));
+        (all_philos + i)->eat_lock = malloc(sizeof(pthread_mutex_t));
         (all_philos + i)->started_lock = malloc(sizeof(pthread_mutex_t));
-        
+
         pthread_mutex_init((all_philos + i)->left_fork, NULL);
         pthread_mutex_init((all_philos + i)->eat_lock, NULL);
         pthread_mutex_init((all_philos + i)->started_lock, NULL);
