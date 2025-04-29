@@ -1,0 +1,6 @@
+2 120 60 60 : dies in 120 
+2 121 60 60 : never dies
+3 180 60 60 : dies in 180
+3 181 60 60 : never dies
+4 310 200 100 : never dies
+

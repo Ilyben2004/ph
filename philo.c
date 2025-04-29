@@ -54,8 +54,6 @@ int main(int ac, char **av)
     pthread_t monitor;
     pthread_t monitor_eat;
     pthread_create(&monitor, NULL, ft_monitor_die, called_philo);
-    pthread_create(&monitor_eat, NULL, ft_monitor_eat, called_philo);
-
     i = 0;
     while (i < num_philos)
     {
@@ -63,5 +61,4 @@ int main(int ac, char **av)
         i++;
     }
     pthread_join(monitor, NULL);
-    pthread_join(monitor_eat, NULL);
 }

@@ -1,47 +1,32 @@
 #include "philo.h"
 
-void * ft_monitor_die(void *philos)
+void *ft_monitor_die(void *philos)
 {
+    int all_alive;
+
+    all_alive = 1;
 
     int i;
-    t_private_philo * philo = (t_private_philo *) philos;
-    while (!philo->public_philo->end_sim)
+    t_private_philo *philo = (t_private_philo *)philos;
+    while (all_alive)
     {
         i = 0;
+        pthread_mutex_lock(philo->public_philo->dead_lock);
         while (i < philo->public_philo->total_philo)
         {
-            if((philo + i)->started && get_time_between_2_times((philo + i)->last_meal) > philo->public_philo->time_die)
+
+            int started = (philo + i)->started;
+            if (started && get_time_between_2_times((philo + i)->last_meal) >= philo->public_philo->time_die)
             {
-                printf("get_time_between_2_times((philo + i)->last_meal) = %ld > philo->public_philo->time_die = %ld\n",get_time_between_2_times((philo + i)->last_meal) , philo->public_philo->time_die);
-                print_passed_time_in_ms(philo->public_philo->start_time , "monitor " , -1);
-                printf("philo[%d] is dead last_mael %ld started = %d\n",i + 1 , get_time_between_2_times((philo + i)->last_meal) , (philo + i)->started);
+                print_passed_time_in_ms(philo->public_philo->start_time, "chi phaylassof mat  ", (philo->id), NULL);
                 philo->public_philo->end_sim = 1;
-                
+                all_alive = 0;
+                break;
             }
             i++;
         }
-
+        pthread_mutex_unlock(philo->public_philo->dead_lock);
+        usleep(500);
     }
-}
-
-void * ft_monitor_eat(void *philos)
-{
-
-    int i;
-    int all_eat;
-    t_private_philo * philo = (t_private_philo *) philos;
-    while (!philo->public_philo->end_sim)
-    {
-        i = 0;
-        all_eat =1;
-        while (all_eat && i < philo->public_philo->total_philo)
-        {
-            if((philo + i)->started == 0 || (philo + i)->count_eat < philo->public_philo->how_many_eats)
-                all_eat = 0;
-            i++;
-        }
-        if (all_eat)
-            philo->public_philo->end_sim = 1;
-
-    }
+    return (philo);
 }
