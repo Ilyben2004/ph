@@ -66,7 +66,6 @@ t_private_philo *init_called_philo(t_private_philo **called_philo, int ac, char 
     (void)av;
     if (!init_public_philo(&public_philo, ac, av))
         return (NULL);
-    gettimeofday(&(public_philo)->start_time, NULL);
     printf("public_philo->total_philo = %d\n", public_philo->total_philo);
     printf("public_philo->total_philo = %d\n", public_philo->total_philo);
 

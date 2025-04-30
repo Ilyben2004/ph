@@ -1,0 +1,2438 @@
+init public ended
+public_philo->total_philo = 2
+public_philo->total_philo = 2
+************* public philo ***********
+public_philo->time_die = 120 
+public_philo->time_eat = 10 
+public_philo->time_sleep = 10
+public_philo->total_phil= 2
+*********************************************
+************* privte _ philo ***********
+private_philo->id = 1 
+private_philo->count_eat = 0 
+*********************************************
+************* privte _ philo ***********
+private_philo->id = 2 
+private_philo->count_eat = 0 
+*********************************************
+took the right fork from philo[2] lwe9t : 0 ms
+took the left fork from philo[2] lwe9t : 0 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 0 ms
+eating : from philo[2] lwe9t : 0 ms
+tle9 the left fork from philo[2] lwe9t : 10 ms
+tle9 the right fork from philo[2] lwe9t : 10 ms
+sleeping :  from philo[2] lwe9t : 10 ms
+took the left fork from philo[1] lwe9t : 10 ms
+took the right fork from philo[1] lwe9t : 10 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 10 ms
+eating : from philo[1] lwe9t : 10 ms
+thinking :  from philo[2] lwe9t : 20 ms
+tle9 the right fork from philo[1] lwe9t : 20 ms
+tle9 the left fork from philo[1] lwe9t : 20 ms
+took the right fork from philo[2] lwe9t : 20 ms
+sleeping :  from philo[1] lwe9t : 20 ms
+took the left fork from philo[2] lwe9t : 20 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 20 ms
+eating : from philo[2] lwe9t : 20 ms
+tle9 the left fork from philo[2] lwe9t : 31 ms
+tle9 the right fork from philo[2] lwe9t : 31 ms
+sleeping :  from philo[2] lwe9t : 31 ms
+thinking :  from philo[1] lwe9t : 31 ms
+took the left fork from philo[1] lwe9t : 31 ms
+took the right fork from philo[1] lwe9t : 31 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 31 ms
+eating : from philo[1] lwe9t : 31 ms
+thinking :  from philo[2] lwe9t : 41 ms
+tle9 the right fork from philo[1] lwe9t : 41 ms
+tle9 the left fork from philo[1] lwe9t : 41 ms
+sleeping :  from philo[1] lwe9t : 41 ms
+took the right fork from philo[2] lwe9t : 41 ms
+took the left fork from philo[2] lwe9t : 41 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 41 ms
+eating : from philo[2] lwe9t : 41 ms
+thinking :  from philo[1] lwe9t : 51 ms
+tle9 the left fork from philo[2] lwe9t : 51 ms
+tle9 the right fork from philo[2] lwe9t : 51 ms
+sleeping :  from philo[2] lwe9t : 51 ms
+took the left fork from philo[1] lwe9t : 51 ms
+took the right fork from philo[1] lwe9t : 51 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 51 ms
+eating : from philo[1] lwe9t : 51 ms
+thinking :  from philo[2] lwe9t : 61 ms
+tle9 the right fork from philo[1] lwe9t : 61 ms
+tle9 the left fork from philo[1] lwe9t : 61 ms
+sleeping :  from philo[1] lwe9t : 61 ms
+took the right fork from philo[2] lwe9t : 61 ms
+took the left fork from philo[2] lwe9t : 61 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 61 ms
+eating : from philo[2] lwe9t : 61 ms
+thinking :  from philo[1] lwe9t : 71 ms
+tle9 the left fork from philo[2] lwe9t : 72 ms
+tle9 the right fork from philo[2] lwe9t : 72 ms
+sleeping :  from philo[2] lwe9t : 72 ms
+took the left fork from philo[1] lwe9t : 72 ms
+took the right fork from philo[1] lwe9t : 72 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 72 ms
+eating : from philo[1] lwe9t : 72 ms
+thinking :  from philo[2] lwe9t : 82 ms
+tle9 the right fork from philo[1] lwe9t : 82 ms
+tle9 the left fork from philo[1] lwe9t : 82 ms
+sleeping :  from philo[1] lwe9t : 82 ms
+took the right fork from philo[2] lwe9t : 82 ms
+took the left fork from philo[2] lwe9t : 82 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 82 ms
+eating : from philo[2] lwe9t : 82 ms
+thinking :  from philo[1] lwe9t : 92 ms
+tle9 the left fork from philo[2] lwe9t : 92 ms
+tle9 the right fork from philo[2] lwe9t : 92 ms
+sleeping :  from philo[2] lwe9t : 92 ms
+took the left fork from philo[1] lwe9t : 92 ms
+took the right fork from philo[1] lwe9t : 92 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 92 ms
+eating : from philo[1] lwe9t : 92 ms
+thinking :  from philo[2] lwe9t : 102 ms
+tle9 the right fork from philo[1] lwe9t : 102 ms
+tle9 the left fork from philo[1] lwe9t : 102 ms
+sleeping :  from philo[1] lwe9t : 102 ms
+took the right fork from philo[2] lwe9t : 102 ms
+took the left fork from philo[2] lwe9t : 102 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 102 ms
+eating : from philo[2] lwe9t : 102 ms
+tle9 the left fork from philo[2] lwe9t : 112 ms
+tle9 the right fork from philo[2] lwe9t : 112 ms
+thinking :  from philo[1] lwe9t : 112 ms
+sleeping :  from philo[2] lwe9t : 112 ms
+took the left fork from philo[1] lwe9t : 113 ms
+took the right fork from philo[1] lwe9t : 113 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 113 ms
+eating : from philo[1] lwe9t : 113 ms
+thinking :  from philo[2] lwe9t : 122 ms
+tle9 the right fork from philo[1] lwe9t : 123 ms
+tle9 the left fork from philo[1] lwe9t : 123 ms
+sleeping :  from philo[1] lwe9t : 123 ms
+took the right fork from philo[2] lwe9t : 123 ms
+took the left fork from philo[2] lwe9t : 123 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 123 ms
+eating : from philo[2] lwe9t : 123 ms
+thinking :  from philo[1] lwe9t : 133 ms
+tle9 the left fork from philo[2] lwe9t : 133 ms
+tle9 the right fork from philo[2] lwe9t : 133 ms
+sleeping :  from philo[2] lwe9t : 133 ms
+took the left fork from philo[1] lwe9t : 133 ms
+took the right fork from philo[1] lwe9t : 133 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 133 ms
+eating : from philo[1] lwe9t : 133 ms
+thinking :  from philo[2] lwe9t : 143 ms
+tle9 the right fork from philo[1] lwe9t : 143 ms
+tle9 the left fork from philo[1] lwe9t : 143 ms
+sleeping :  from philo[1] lwe9t : 143 ms
+took the right fork from philo[2] lwe9t : 143 ms
+took the left fork from philo[2] lwe9t : 143 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 143 ms
+eating : from philo[2] lwe9t : 143 ms
+thinking :  from philo[1] lwe9t : 153 ms
+tle9 the left fork from philo[2] lwe9t : 153 ms
+tle9 the right fork from philo[2] lwe9t : 153 ms
+sleeping :  from philo[2] lwe9t : 153 ms
+took the left fork from philo[1] lwe9t : 154 ms
+took the right fork from philo[1] lwe9t : 154 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 154 ms
+eating : from philo[1] lwe9t : 154 ms
+thinking :  from philo[2] lwe9t : 163 ms
+tle9 the right fork from philo[1] lwe9t : 164 ms
+tle9 the left fork from philo[1] lwe9t : 164 ms
+sleeping :  from philo[1] lwe9t : 164 ms
+took the right fork from philo[2] lwe9t : 164 ms
+took the left fork from philo[2] lwe9t : 164 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 164 ms
+eating : from philo[2] lwe9t : 164 ms
+tle9 the left fork from philo[2] lwe9t : 174 ms
+tle9 the right fork from philo[2] lwe9t : 174 ms
+sleeping :  from philo[2] lwe9t : 174 ms
+thinking :  from philo[1] lwe9t : 174 ms
+took the left fork from philo[1] lwe9t : 174 ms
+took the right fork from philo[1] lwe9t : 174 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 174 ms
+eating : from philo[1] lwe9t : 174 ms
+thinking :  from philo[2] lwe9t : 184 ms
+tle9 the right fork from philo[1] lwe9t : 184 ms
+tle9 the left fork from philo[1] lwe9t : 184 ms
+sleeping :  from philo[1] lwe9t : 184 ms
+took the right fork from philo[2] lwe9t : 184 ms
+took the left fork from philo[2] lwe9t : 184 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 184 ms
+eating : from philo[2] lwe9t : 184 ms
+thinking :  from philo[1] lwe9t : 194 ms
+tle9 the left fork from philo[2] lwe9t : 194 ms
+tle9 the right fork from philo[2] lwe9t : 194 ms
+sleeping :  from philo[2] lwe9t : 194 ms
+took the left fork from philo[1] lwe9t : 195 ms
+took the right fork from philo[1] lwe9t : 195 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 195 ms
+eating : from philo[1] lwe9t : 195 ms
+thinking :  from philo[2] lwe9t : 204 ms
+tle9 the right fork from philo[1] lwe9t : 205 ms
+tle9 the left fork from philo[1] lwe9t : 205 ms
+sleeping :  from philo[1] lwe9t : 205 ms
+took the right fork from philo[2] lwe9t : 205 ms
+took the left fork from philo[2] lwe9t : 205 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 205 ms
+eating : from philo[2] lwe9t : 205 ms
+thinking :  from philo[1] lwe9t : 215 ms
+tle9 the left fork from philo[2] lwe9t : 215 ms
+tle9 the right fork from philo[2] lwe9t : 215 ms
+sleeping :  from philo[2] lwe9t : 215 ms
+took the left fork from philo[1] lwe9t : 215 ms
+took the right fork from philo[1] lwe9t : 215 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 215 ms
+eating : from philo[1] lwe9t : 215 ms
+thinking :  from philo[2] lwe9t : 225 ms
+tle9 the right fork from philo[1] lwe9t : 225 ms
+tle9 the left fork from philo[1] lwe9t : 225 ms
+took the right fork from philo[2] lwe9t : 225 ms
+sleeping :  from philo[1] lwe9t : 225 ms
+took the left fork from philo[2] lwe9t : 225 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 225 ms
+eating : from philo[2] lwe9t : 225 ms
+thinking :  from philo[1] lwe9t : 235 ms
+tle9 the left fork from philo[2] lwe9t : 235 ms
+tle9 the right fork from philo[2] lwe9t : 235 ms
+sleeping :  from philo[2] lwe9t : 235 ms
+took the left fork from philo[1] lwe9t : 236 ms
+took the right fork from philo[1] lwe9t : 236 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 236 ms
+eating : from philo[1] lwe9t : 236 ms
+thinking :  from philo[2] lwe9t : 245 ms
+tle9 the right fork from philo[1] lwe9t : 246 ms
+tle9 the left fork from philo[1] lwe9t : 246 ms
+sleeping :  from philo[1] lwe9t : 246 ms
+took the right fork from philo[2] lwe9t : 246 ms
+took the left fork from philo[2] lwe9t : 246 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 246 ms
+eating : from philo[2] lwe9t : 246 ms
+thinking :  from philo[1] lwe9t : 256 ms
+tle9 the left fork from philo[2] lwe9t : 256 ms
+tle9 the right fork from philo[2] lwe9t : 256 ms
+sleeping :  from philo[2] lwe9t : 256 ms
+took the left fork from philo[1] lwe9t : 256 ms
+took the right fork from philo[1] lwe9t : 256 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 256 ms
+eating : from philo[1] lwe9t : 256 ms
+thinking :  from philo[2] lwe9t : 266 ms
+tle9 the right fork from philo[1] lwe9t : 266 ms
+tle9 the left fork from philo[1] lwe9t : 266 ms
+sleeping :  from philo[1] lwe9t : 266 ms
+took the right fork from philo[2] lwe9t : 266 ms
+took the left fork from philo[2] lwe9t : 266 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 266 ms
+eating : from philo[2] lwe9t : 266 ms
+thinking :  from philo[1] lwe9t : 276 ms
+tle9 the left fork from philo[2] lwe9t : 276 ms
+tle9 the right fork from philo[2] lwe9t : 276 ms
+sleeping :  from philo[2] lwe9t : 276 ms
+took the left fork from philo[1] lwe9t : 277 ms
+took the right fork from philo[1] lwe9t : 277 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 277 ms
+eating : from philo[1] lwe9t : 277 ms
+thinking :  from philo[2] lwe9t : 286 ms
+tle9 the right fork from philo[1] lwe9t : 287 ms
+tle9 the left fork from philo[1] lwe9t : 287 ms
+sleeping :  from philo[1] lwe9t : 287 ms
+took the right fork from philo[2] lwe9t : 287 ms
+took the left fork from philo[2] lwe9t : 287 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 287 ms
+eating : from philo[2] lwe9t : 287 ms
+tle9 the left fork from philo[2] lwe9t : 297 ms
+tle9 the right fork from philo[2] lwe9t : 297 ms
+sleeping :  from philo[2] lwe9t : 297 ms
+thinking :  from philo[1] lwe9t : 297 ms
+took the left fork from philo[1] lwe9t : 297 ms
+took the right fork from philo[1] lwe9t : 297 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 297 ms
+eating : from philo[1] lwe9t : 297 ms
+thinking :  from philo[2] lwe9t : 307 ms
+tle9 the right fork from philo[1] lwe9t : 307 ms
+tle9 the left fork from philo[1] lwe9t : 307 ms
+sleeping :  from philo[1] lwe9t : 307 ms
+took the right fork from philo[2] lwe9t : 307 ms
+took the left fork from philo[2] lwe9t : 307 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 307 ms
+eating : from philo[2] lwe9t : 307 ms
+tle9 the left fork from philo[2] lwe9t : 317 ms
+tle9 the right fork from philo[2] lwe9t : 317 ms
+sleeping :  from philo[2] lwe9t : 317 ms
+thinking :  from philo[1] lwe9t : 317 ms
+took the left fork from philo[1] lwe9t : 318 ms
+took the right fork from philo[1] lwe9t : 318 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 318 ms
+eating : from philo[1] lwe9t : 318 ms
+thinking :  from philo[2] lwe9t : 327 ms
+tle9 the right fork from philo[1] lwe9t : 328 ms
+tle9 the left fork from philo[1] lwe9t : 328 ms
+took the right fork from philo[2] lwe9t : 328 ms
+sleeping :  from philo[1] lwe9t : 328 ms
+took the left fork from philo[2] lwe9t : 328 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 328 ms
+eating : from philo[2] lwe9t : 328 ms
+thinking :  from philo[1] lwe9t : 338 ms
+tle9 the left fork from philo[2] lwe9t : 338 ms
+tle9 the right fork from philo[2] lwe9t : 338 ms
+sleeping :  from philo[2] lwe9t : 338 ms
+took the left fork from philo[1] lwe9t : 338 ms
+took the right fork from philo[1] lwe9t : 338 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 338 ms
+eating : from philo[1] lwe9t : 338 ms
+thinking :  from philo[2] lwe9t : 348 ms
+tle9 the right fork from philo[1] lwe9t : 348 ms
+tle9 the left fork from philo[1] lwe9t : 348 ms
+sleeping :  from philo[1] lwe9t : 348 ms
+took the right fork from philo[2] lwe9t : 348 ms
+took the left fork from philo[2] lwe9t : 348 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 348 ms
+eating : from philo[2] lwe9t : 348 ms
+thinking :  from philo[1] lwe9t : 358 ms
+tle9 the left fork from philo[2] lwe9t : 358 ms
+tle9 the right fork from philo[2] lwe9t : 358 ms
+sleeping :  from philo[2] lwe9t : 358 ms
+took the left fork from philo[1] lwe9t : 359 ms
+took the right fork from philo[1] lwe9t : 359 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 359 ms
+eating : from philo[1] lwe9t : 359 ms
+thinking :  from philo[2] lwe9t : 368 ms
+tle9 the right fork from philo[1] lwe9t : 369 ms
+tle9 the left fork from philo[1] lwe9t : 369 ms
+took the right fork from philo[2] lwe9t : 369 ms
+took the left fork from philo[2] lwe9t : 369 ms
+sleeping :  from philo[1] lwe9t : 369 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 369 ms
+eating : from philo[2] lwe9t : 369 ms
+tle9 the left fork from philo[2] lwe9t : 379 ms
+tle9 the right fork from philo[2] lwe9t : 379 ms
+sleeping :  from philo[2] lwe9t : 379 ms
+thinking :  from philo[1] lwe9t : 379 ms
+took the left fork from philo[1] lwe9t : 379 ms
+took the right fork from philo[1] lwe9t : 379 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 379 ms
+eating : from philo[1] lwe9t : 379 ms
+thinking :  from philo[2] lwe9t : 389 ms
+tle9 the right fork from philo[1] lwe9t : 389 ms
+tle9 the left fork from philo[1] lwe9t : 389 ms
+sleeping :  from philo[1] lwe9t : 389 ms
+took the right fork from philo[2] lwe9t : 389 ms
+took the left fork from philo[2] lwe9t : 389 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 389 ms
+eating : from philo[2] lwe9t : 389 ms
+thinking :  from philo[1] lwe9t : 399 ms
+tle9 the left fork from philo[2] lwe9t : 399 ms
+tle9 the right fork from philo[2] lwe9t : 399 ms
+sleeping :  from philo[2] lwe9t : 399 ms
+took the left fork from philo[1] lwe9t : 399 ms
+took the right fork from philo[1] lwe9t : 399 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 399 ms
+eating : from philo[1] lwe9t : 399 ms
+thinking :  from philo[2] lwe9t : 409 ms
+tle9 the right fork from philo[1] lwe9t : 410 ms
+tle9 the left fork from philo[1] lwe9t : 410 ms
+sleeping :  from philo[1] lwe9t : 410 ms
+took the right fork from philo[2] lwe9t : 410 ms
+took the left fork from philo[2] lwe9t : 410 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 410 ms
+eating : from philo[2] lwe9t : 410 ms
+thinking :  from philo[1] lwe9t : 420 ms
+tle9 the left fork from philo[2] lwe9t : 420 ms
+tle9 the right fork from philo[2] lwe9t : 420 ms
+sleeping :  from philo[2] lwe9t : 420 ms
+took the left fork from philo[1] lwe9t : 420 ms
+took the right fork from philo[1] lwe9t : 420 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 420 ms
+eating : from philo[1] lwe9t : 420 ms
+thinking :  from philo[2] lwe9t : 430 ms
+tle9 the right fork from philo[1] lwe9t : 430 ms
+tle9 the left fork from philo[1] lwe9t : 430 ms
+sleeping :  from philo[1] lwe9t : 430 ms
+took the right fork from philo[2] lwe9t : 430 ms
+took the left fork from philo[2] lwe9t : 430 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 430 ms
+eating : from philo[2] lwe9t : 430 ms
+thinking :  from philo[1] lwe9t : 440 ms
+tle9 the left fork from philo[2] lwe9t : 440 ms
+tle9 the right fork from philo[2] lwe9t : 440 ms
+sleeping :  from philo[2] lwe9t : 440 ms
+took the left fork from philo[1] lwe9t : 440 ms
+took the right fork from philo[1] lwe9t : 440 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 440 ms
+eating : from philo[1] lwe9t : 440 ms
+thinking :  from philo[2] lwe9t : 450 ms
+tle9 the right fork from philo[1] lwe9t : 451 ms
+tle9 the left fork from philo[1] lwe9t : 451 ms
+took the right fork from philo[2] lwe9t : 451 ms
+sleeping :  from philo[1] lwe9t : 451 ms
+took the left fork from philo[2] lwe9t : 451 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 451 ms
+eating : from philo[2] lwe9t : 451 ms
+tle9 the left fork from philo[2] lwe9t : 461 ms
+tle9 the right fork from philo[2] lwe9t : 461 ms
+sleeping :  from philo[2] lwe9t : 461 ms
+thinking :  from philo[1] lwe9t : 461 ms
+took the left fork from philo[1] lwe9t : 461 ms
+took the right fork from philo[1] lwe9t : 461 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 461 ms
+eating : from philo[1] lwe9t : 461 ms
+thinking :  from philo[2] lwe9t : 471 ms
+tle9 the right fork from philo[1] lwe9t : 471 ms
+tle9 the left fork from philo[1] lwe9t : 471 ms
+sleeping :  from philo[1] lwe9t : 471 ms
+took the right fork from philo[2] lwe9t : 471 ms
+took the left fork from philo[2] lwe9t : 471 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 471 ms
+eating : from philo[2] lwe9t : 471 ms
+tle9 the left fork from philo[2] lwe9t : 481 ms
+tle9 the right fork from philo[2] lwe9t : 481 ms
+sleeping :  from philo[2] lwe9t : 481 ms
+thinking :  from philo[1] lwe9t : 481 ms
+took the left fork from philo[1] lwe9t : 481 ms
+took the right fork from philo[1] lwe9t : 481 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 481 ms
+eating : from philo[1] lwe9t : 481 ms
+thinking :  from philo[2] lwe9t : 491 ms
+tle9 the right fork from philo[1] lwe9t : 491 ms
+tle9 the left fork from philo[1] lwe9t : 491 ms
+sleeping :  from philo[1] lwe9t : 491 ms
+took the right fork from philo[2] lwe9t : 491 ms
+took the left fork from philo[2] lwe9t : 492 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 492 ms
+eating : from philo[2] lwe9t : 492 ms
+thinking :  from philo[1] lwe9t : 501 ms
+tle9 the left fork from philo[2] lwe9t : 502 ms
+tle9 the right fork from philo[2] lwe9t : 502 ms
+sleeping :  from philo[2] lwe9t : 502 ms
+took the left fork from philo[1] lwe9t : 502 ms
+took the right fork from philo[1] lwe9t : 502 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 502 ms
+eating : from philo[1] lwe9t : 502 ms
+thinking :  from philo[2] lwe9t : 512 ms
+tle9 the right fork from philo[1] lwe9t : 512 ms
+tle9 the left fork from philo[1] lwe9t : 512 ms
+sleeping :  from philo[1] lwe9t : 512 ms
+took the right fork from philo[2] lwe9t : 512 ms
+took the left fork from philo[2] lwe9t : 512 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 512 ms
+eating : from philo[2] lwe9t : 512 ms
+thinking :  from philo[1] lwe9t : 522 ms
+tle9 the left fork from philo[2] lwe9t : 522 ms
+tle9 the right fork from philo[2] lwe9t : 522 ms
+sleeping :  from philo[2] lwe9t : 522 ms
+took the left fork from philo[1] lwe9t : 522 ms
+took the right fork from philo[1] lwe9t : 522 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 522 ms
+eating : from philo[1] lwe9t : 522 ms
+thinking :  from philo[2] lwe9t : 532 ms
+tle9 the right fork from philo[1] lwe9t : 532 ms
+tle9 the left fork from philo[1] lwe9t : 532 ms
+sleeping :  from philo[1] lwe9t : 532 ms
+took the right fork from philo[2] lwe9t : 532 ms
+took the left fork from philo[2] lwe9t : 532 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 532 ms
+eating : from philo[2] lwe9t : 532 ms
+thinking :  from philo[1] lwe9t : 542 ms
+tle9 the left fork from philo[2] lwe9t : 542 ms
+tle9 the right fork from philo[2] lwe9t : 542 ms
+sleeping :  from philo[2] lwe9t : 542 ms
+took the left fork from philo[1] lwe9t : 543 ms
+took the right fork from philo[1] lwe9t : 543 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 543 ms
+eating : from philo[1] lwe9t : 543 ms
+thinking :  from philo[2] lwe9t : 552 ms
+tle9 the right fork from philo[1] lwe9t : 553 ms
+tle9 the left fork from philo[1] lwe9t : 553 ms
+took the right fork from philo[2] lwe9t : 553 ms
+sleeping :  from philo[1] lwe9t : 553 ms
+took the left fork from philo[2] lwe9t : 553 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 553 ms
+eating : from philo[2] lwe9t : 553 ms
+thinking :  from philo[1] lwe9t : 563 ms
+tle9 the left fork from philo[2] lwe9t : 563 ms
+tle9 the right fork from philo[2] lwe9t : 563 ms
+sleeping :  from philo[2] lwe9t : 563 ms
+took the left fork from philo[1] lwe9t : 563 ms
+took the right fork from philo[1] lwe9t : 563 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 563 ms
+eating : from philo[1] lwe9t : 563 ms
+thinking :  from philo[2] lwe9t : 573 ms
+tle9 the right fork from philo[1] lwe9t : 573 ms
+tle9 the left fork from philo[1] lwe9t : 573 ms
+sleeping :  from philo[1] lwe9t : 573 ms
+took the right fork from philo[2] lwe9t : 573 ms
+took the left fork from philo[2] lwe9t : 573 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 573 ms
+eating : from philo[2] lwe9t : 573 ms
+thinking :  from philo[1] lwe9t : 583 ms
+tle9 the left fork from philo[2] lwe9t : 583 ms
+tle9 the right fork from philo[2] lwe9t : 583 ms
+sleeping :  from philo[2] lwe9t : 583 ms
+took the left fork from philo[1] lwe9t : 584 ms
+took the right fork from philo[1] lwe9t : 584 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 584 ms
+eating : from philo[1] lwe9t : 584 ms
+thinking :  from philo[2] lwe9t : 593 ms
+tle9 the right fork from philo[1] lwe9t : 594 ms
+tle9 the left fork from philo[1] lwe9t : 594 ms
+took the right fork from philo[2] lwe9t : 594 ms
+took the left fork from philo[2] lwe9t : 594 ms
+sleeping :  from philo[1] lwe9t : 594 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 594 ms
+eating : from philo[2] lwe9t : 594 ms
+tle9 the left fork from philo[2] lwe9t : 604 ms
+thinking :  from philo[1] lwe9t : 604 ms
+tle9 the right fork from philo[2] lwe9t : 604 ms
+sleeping :  from philo[2] lwe9t : 604 ms
+took the left fork from philo[1] lwe9t : 604 ms
+took the right fork from philo[1] lwe9t : 604 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 604 ms
+eating : from philo[1] lwe9t : 604 ms
+thinking :  from philo[2] lwe9t : 614 ms
+tle9 the right fork from philo[1] lwe9t : 614 ms
+tle9 the left fork from philo[1] lwe9t : 614 ms
+sleeping :  from philo[1] lwe9t : 614 ms
+took the right fork from philo[2] lwe9t : 614 ms
+took the left fork from philo[2] lwe9t : 614 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 614 ms
+eating : from philo[2] lwe9t : 614 ms
+thinking :  from philo[1] lwe9t : 624 ms
+tle9 the left fork from philo[2] lwe9t : 624 ms
+tle9 the right fork from philo[2] lwe9t : 624 ms
+sleeping :  from philo[2] lwe9t : 624 ms
+took the left fork from philo[1] lwe9t : 625 ms
+took the right fork from philo[1] lwe9t : 625 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 625 ms
+eating : from philo[1] lwe9t : 625 ms
+thinking :  from philo[2] lwe9t : 634 ms
+tle9 the right fork from philo[1] lwe9t : 635 ms
+tle9 the left fork from philo[1] lwe9t : 635 ms
+sleeping :  from philo[1] lwe9t : 635 ms
+took the right fork from philo[2] lwe9t : 635 ms
+took the left fork from philo[2] lwe9t : 635 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 635 ms
+eating : from philo[2] lwe9t : 635 ms
+thinking :  from philo[1] lwe9t : 645 ms
+tle9 the left fork from philo[2] lwe9t : 645 ms
+tle9 the right fork from philo[2] lwe9t : 645 ms
+sleeping :  from philo[2] lwe9t : 645 ms
+took the left fork from philo[1] lwe9t : 645 ms
+took the right fork from philo[1] lwe9t : 645 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 645 ms
+eating : from philo[1] lwe9t : 645 ms
+thinking :  from philo[2] lwe9t : 655 ms
+tle9 the right fork from philo[1] lwe9t : 655 ms
+tle9 the left fork from philo[1] lwe9t : 655 ms
+sleeping :  from philo[1] lwe9t : 655 ms
+took the right fork from philo[2] lwe9t : 655 ms
+took the left fork from philo[2] lwe9t : 655 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 655 ms
+eating : from philo[2] lwe9t : 655 ms
+thinking :  from philo[1] lwe9t : 665 ms
+tle9 the left fork from philo[2] lwe9t : 665 ms
+tle9 the right fork from philo[2] lwe9t : 665 ms
+sleeping :  from philo[2] lwe9t : 665 ms
+took the left fork from philo[1] lwe9t : 665 ms
+took the right fork from philo[1] lwe9t : 665 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 665 ms
+eating : from philo[1] lwe9t : 665 ms
+thinking :  from philo[2] lwe9t : 675 ms
+tle9 the right fork from philo[1] lwe9t : 675 ms
+tle9 the left fork from philo[1] lwe9t : 675 ms
+sleeping :  from philo[1] lwe9t : 675 ms
+took the right fork from philo[2] lwe9t : 675 ms
+took the left fork from philo[2] lwe9t : 675 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 676 ms
+eating : from philo[2] lwe9t : 676 ms
+thinking :  from philo[1] lwe9t : 685 ms
+tle9 the left fork from philo[2] lwe9t : 686 ms
+tle9 the right fork from philo[2] lwe9t : 686 ms
+sleeping :  from philo[2] lwe9t : 686 ms
+took the left fork from philo[1] lwe9t : 686 ms
+took the right fork from philo[1] lwe9t : 686 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 686 ms
+eating : from philo[1] lwe9t : 686 ms
+thinking :  from philo[2] lwe9t : 696 ms
+tle9 the right fork from philo[1] lwe9t : 696 ms
+tle9 the left fork from philo[1] lwe9t : 696 ms
+sleeping :  from philo[1] lwe9t : 696 ms
+took the right fork from philo[2] lwe9t : 696 ms
+took the left fork from philo[2] lwe9t : 696 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 696 ms
+eating : from philo[2] lwe9t : 696 ms
+thinking :  from philo[1] lwe9t : 706 ms
+tle9 the left fork from philo[2] lwe9t : 706 ms
+tle9 the right fork from philo[2] lwe9t : 706 ms
+sleeping :  from philo[2] lwe9t : 706 ms
+took the left fork from philo[1] lwe9t : 706 ms
+took the right fork from philo[1] lwe9t : 706 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 706 ms
+eating : from philo[1] lwe9t : 706 ms
+thinking :  from philo[2] lwe9t : 716 ms
+tle9 the right fork from philo[1] lwe9t : 716 ms
+tle9 the left fork from philo[1] lwe9t : 716 ms
+sleeping :  from philo[1] lwe9t : 716 ms
+took the right fork from philo[2] lwe9t : 716 ms
+took the left fork from philo[2] lwe9t : 716 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 716 ms
+eating : from philo[2] lwe9t : 716 ms
+thinking :  from philo[1] lwe9t : 726 ms
+tle9 the left fork from philo[2] lwe9t : 726 ms
+tle9 the right fork from philo[2] lwe9t : 726 ms
+sleeping :  from philo[2] lwe9t : 726 ms
+took the left fork from philo[1] lwe9t : 727 ms
+took the right fork from philo[1] lwe9t : 727 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 727 ms
+eating : from philo[1] lwe9t : 727 ms
+thinking :  from philo[2] lwe9t : 736 ms
+tle9 the right fork from philo[1] lwe9t : 737 ms
+tle9 the left fork from philo[1] lwe9t : 737 ms
+sleeping :  from philo[1] lwe9t : 737 ms
+took the right fork from philo[2] lwe9t : 737 ms
+took the left fork from philo[2] lwe9t : 737 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 737 ms
+eating : from philo[2] lwe9t : 737 ms
+tle9 the left fork from philo[2] lwe9t : 747 ms
+tle9 the right fork from philo[2] lwe9t : 747 ms
+sleeping :  from philo[2] lwe9t : 747 ms
+thinking :  from philo[1] lwe9t : 747 ms
+took the left fork from philo[1] lwe9t : 747 ms
+took the right fork from philo[1] lwe9t : 747 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 747 ms
+eating : from philo[1] lwe9t : 747 ms
+thinking :  from philo[2] lwe9t : 757 ms
+tle9 the right fork from philo[1] lwe9t : 757 ms
+tle9 the left fork from philo[1] lwe9t : 757 ms
+sleeping :  from philo[1] lwe9t : 757 ms
+took the right fork from philo[2] lwe9t : 757 ms
+took the left fork from philo[2] lwe9t : 757 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 757 ms
+eating : from philo[2] lwe9t : 757 ms
+thinking :  from philo[1] lwe9t : 767 ms
+tle9 the left fork from philo[2] lwe9t : 767 ms
+tle9 the right fork from philo[2] lwe9t : 767 ms
+sleeping :  from philo[2] lwe9t : 767 ms
+took the left fork from philo[1] lwe9t : 768 ms
+took the right fork from philo[1] lwe9t : 768 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 768 ms
+eating : from philo[1] lwe9t : 768 ms
+thinking :  from philo[2] lwe9t : 777 ms
+tle9 the right fork from philo[1] lwe9t : 778 ms
+tle9 the left fork from philo[1] lwe9t : 778 ms
+sleeping :  from philo[1] lwe9t : 778 ms
+took the right fork from philo[2] lwe9t : 778 ms
+took the left fork from philo[2] lwe9t : 778 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 778 ms
+eating : from philo[2] lwe9t : 778 ms
+thinking :  from philo[1] lwe9t : 788 ms
+tle9 the left fork from philo[2] lwe9t : 788 ms
+tle9 the right fork from philo[2] lwe9t : 788 ms
+sleeping :  from philo[2] lwe9t : 788 ms
+took the left fork from philo[1] lwe9t : 788 ms
+took the right fork from philo[1] lwe9t : 788 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 788 ms
+eating : from philo[1] lwe9t : 788 ms
+thinking :  from philo[2] lwe9t : 798 ms
+tle9 the right fork from philo[1] lwe9t : 798 ms
+tle9 the left fork from philo[1] lwe9t : 798 ms
+sleeping :  from philo[1] lwe9t : 798 ms
+took the right fork from philo[2] lwe9t : 798 ms
+took the left fork from philo[2] lwe9t : 798 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 798 ms
+eating : from philo[2] lwe9t : 798 ms
+thinking :  from philo[1] lwe9t : 808 ms
+tle9 the left fork from philo[2] lwe9t : 808 ms
+tle9 the right fork from philo[2] lwe9t : 808 ms
+sleeping :  from philo[2] lwe9t : 808 ms
+took the left fork from philo[1] lwe9t : 809 ms
+took the right fork from philo[1] lwe9t : 809 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 809 ms
+eating : from philo[1] lwe9t : 809 ms
+thinking :  from philo[2] lwe9t : 818 ms
+tle9 the right fork from philo[1] lwe9t : 819 ms
+tle9 the left fork from philo[1] lwe9t : 819 ms
+sleeping :  from philo[1] lwe9t : 819 ms
+took the right fork from philo[2] lwe9t : 819 ms
+took the left fork from philo[2] lwe9t : 819 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 819 ms
+eating : from philo[2] lwe9t : 819 ms
+thinking :  from philo[1] lwe9t : 829 ms
+tle9 the left fork from philo[2] lwe9t : 829 ms
+tle9 the right fork from philo[2] lwe9t : 829 ms
+sleeping :  from philo[2] lwe9t : 829 ms
+took the left fork from philo[1] lwe9t : 829 ms
+took the right fork from philo[1] lwe9t : 829 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 829 ms
+eating : from philo[1] lwe9t : 829 ms
+thinking :  from philo[2] lwe9t : 839 ms
+tle9 the right fork from philo[1] lwe9t : 839 ms
+tle9 the left fork from philo[1] lwe9t : 839 ms
+sleeping :  from philo[1] lwe9t : 839 ms
+took the right fork from philo[2] lwe9t : 839 ms
+took the left fork from philo[2] lwe9t : 839 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 839 ms
+eating : from philo[2] lwe9t : 839 ms
+thinking :  from philo[1] lwe9t : 849 ms
+tle9 the left fork from philo[2] lwe9t : 849 ms
+tle9 the right fork from philo[2] lwe9t : 849 ms
+sleeping :  from philo[2] lwe9t : 849 ms
+took the left fork from philo[1] lwe9t : 849 ms
+took the right fork from philo[1] lwe9t : 849 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 849 ms
+eating : from philo[1] lwe9t : 849 ms
+thinking :  from philo[2] lwe9t : 859 ms
+tle9 the right fork from philo[1] lwe9t : 859 ms
+tle9 the left fork from philo[1] lwe9t : 859 ms
+sleeping :  from philo[1] lwe9t : 859 ms
+took the right fork from philo[2] lwe9t : 859 ms
+took the left fork from philo[2] lwe9t : 860 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 860 ms
+eating : from philo[2] lwe9t : 860 ms
+thinking :  from philo[1] lwe9t : 870 ms
+tle9 the left fork from philo[2] lwe9t : 870 ms
+tle9 the right fork from philo[2] lwe9t : 870 ms
+sleeping :  from philo[2] lwe9t : 870 ms
+took the left fork from philo[1] lwe9t : 870 ms
+took the right fork from philo[1] lwe9t : 870 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 870 ms
+eating : from philo[1] lwe9t : 870 ms
+thinking :  from philo[2] lwe9t : 880 ms
+tle9 the right fork from philo[1] lwe9t : 880 ms
+tle9 the left fork from philo[1] lwe9t : 880 ms
+sleeping :  from philo[1] lwe9t : 880 ms
+took the right fork from philo[2] lwe9t : 880 ms
+took the left fork from philo[2] lwe9t : 880 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 880 ms
+eating : from philo[2] lwe9t : 880 ms
+thinking :  from philo[1] lwe9t : 890 ms
+tle9 the left fork from philo[2] lwe9t : 890 ms
+tle9 the right fork from philo[2] lwe9t : 890 ms
+sleeping :  from philo[2] lwe9t : 890 ms
+took the left fork from philo[1] lwe9t : 890 ms
+took the right fork from philo[1] lwe9t : 890 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 890 ms
+eating : from philo[1] lwe9t : 890 ms
+thinking :  from philo[2] lwe9t : 900 ms
+tle9 the right fork from philo[1] lwe9t : 900 ms
+tle9 the left fork from philo[1] lwe9t : 900 ms
+sleeping :  from philo[1] lwe9t : 900 ms
+took the right fork from philo[2] lwe9t : 900 ms
+took the left fork from philo[2] lwe9t : 900 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 900 ms
+eating : from philo[2] lwe9t : 900 ms
+thinking :  from philo[1] lwe9t : 910 ms
+tle9 the left fork from philo[2] lwe9t : 910 ms
+tle9 the right fork from philo[2] lwe9t : 910 ms
+sleeping :  from philo[2] lwe9t : 910 ms
+took the left fork from philo[1] lwe9t : 911 ms
+took the right fork from philo[1] lwe9t : 911 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 911 ms
+eating : from philo[1] lwe9t : 911 ms
+thinking :  from philo[2] lwe9t : 920 ms
+tle9 the right fork from philo[1] lwe9t : 921 ms
+tle9 the left fork from philo[1] lwe9t : 921 ms
+took the right fork from philo[2] lwe9t : 921 ms
+sleeping :  from philo[1] lwe9t : 921 ms
+took the left fork from philo[2] lwe9t : 921 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 921 ms
+eating : from philo[2] lwe9t : 921 ms
+tle9 the left fork from philo[2] lwe9t : 931 ms
+tle9 the right fork from philo[2] lwe9t : 931 ms
+sleeping :  from philo[2] lwe9t : 931 ms
+thinking :  from philo[1] lwe9t : 931 ms
+took the left fork from philo[1] lwe9t : 931 ms
+took the right fork from philo[1] lwe9t : 931 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 931 ms
+eating : from philo[1] lwe9t : 931 ms
+thinking :  from philo[2] lwe9t : 941 ms
+tle9 the right fork from philo[1] lwe9t : 941 ms
+tle9 the left fork from philo[1] lwe9t : 941 ms
+sleeping :  from philo[1] lwe9t : 941 ms
+took the right fork from philo[2] lwe9t : 941 ms
+took the left fork from philo[2] lwe9t : 941 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 941 ms
+eating : from philo[2] lwe9t : 941 ms
+thinking :  from philo[1] lwe9t : 951 ms
+tle9 the left fork from philo[2] lwe9t : 951 ms
+tle9 the right fork from philo[2] lwe9t : 951 ms
+sleeping :  from philo[2] lwe9t : 951 ms
+took the left fork from philo[1] lwe9t : 952 ms
+took the right fork from philo[1] lwe9t : 952 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 952 ms
+eating : from philo[1] lwe9t : 952 ms
+thinking :  from philo[2] lwe9t : 961 ms
+tle9 the right fork from philo[1] lwe9t : 962 ms
+tle9 the left fork from philo[1] lwe9t : 962 ms
+sleeping :  from philo[1] lwe9t : 962 ms
+took the right fork from philo[2] lwe9t : 962 ms
+took the left fork from philo[2] lwe9t : 962 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 962 ms
+eating : from philo[2] lwe9t : 962 ms
+tle9 the left fork from philo[2] lwe9t : 972 ms
+tle9 the right fork from philo[2] lwe9t : 972 ms
+sleeping :  from philo[2] lwe9t : 972 ms
+thinking :  from philo[1] lwe9t : 972 ms
+took the left fork from philo[1] lwe9t : 972 ms
+took the right fork from philo[1] lwe9t : 972 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 972 ms
+eating : from philo[1] lwe9t : 972 ms
+thinking :  from philo[2] lwe9t : 982 ms
+tle9 the right fork from philo[1] lwe9t : 982 ms
+tle9 the left fork from philo[1] lwe9t : 982 ms
+sleeping :  from philo[1] lwe9t : 982 ms
+took the right fork from philo[2] lwe9t : 982 ms
+took the left fork from philo[2] lwe9t : 982 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 982 ms
+eating : from philo[2] lwe9t : 982 ms
+thinking :  from philo[1] lwe9t : 992 ms
+tle9 the left fork from philo[2] lwe9t : 992 ms
+tle9 the right fork from philo[2] lwe9t : 992 ms
+sleeping :  from philo[2] lwe9t : 992 ms
+took the left fork from philo[1] lwe9t : 993 ms
+took the right fork from philo[1] lwe9t : 993 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 993 ms
+eating : from philo[1] lwe9t : 993 ms
+thinking :  from philo[2] lwe9t : 1001 ms
+tle9 the right fork from philo[1] lwe9t : 1002 ms
+tle9 the left fork from philo[1] lwe9t : 1002 ms
+sleeping :  from philo[1] lwe9t : 1002 ms
+took the right fork from philo[2] lwe9t : 1002 ms
+took the left fork from philo[2] lwe9t : 1002 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1002 ms
+eating : from philo[2] lwe9t : 1002 ms
+thinking :  from philo[1] lwe9t : 1012 ms
+tle9 the left fork from philo[2] lwe9t : 1012 ms
+tle9 the right fork from philo[2] lwe9t : 1012 ms
+sleeping :  from philo[2] lwe9t : 1012 ms
+took the left fork from philo[1] lwe9t : 1012 ms
+took the right fork from philo[1] lwe9t : 1012 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1012 ms
+eating : from philo[1] lwe9t : 1012 ms
+thinking :  from philo[2] lwe9t : 1022 ms
+tle9 the right fork from philo[1] lwe9t : 1022 ms
+tle9 the left fork from philo[1] lwe9t : 1022 ms
+sleeping :  from philo[1] lwe9t : 1022 ms
+took the right fork from philo[2] lwe9t : 1022 ms
+took the left fork from philo[2] lwe9t : 1022 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1022 ms
+eating : from philo[2] lwe9t : 1022 ms
+thinking :  from philo[1] lwe9t : 1032 ms
+tle9 the left fork from philo[2] lwe9t : 1032 ms
+tle9 the right fork from philo[2] lwe9t : 1032 ms
+sleeping :  from philo[2] lwe9t : 1032 ms
+took the left fork from philo[1] lwe9t : 1032 ms
+took the right fork from philo[1] lwe9t : 1032 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1032 ms
+eating : from philo[1] lwe9t : 1032 ms
+thinking :  from philo[2] lwe9t : 1042 ms
+tle9 the right fork from philo[1] lwe9t : 1042 ms
+tle9 the left fork from philo[1] lwe9t : 1042 ms
+sleeping :  from philo[1] lwe9t : 1042 ms
+took the right fork from philo[2] lwe9t : 1042 ms
+took the left fork from philo[2] lwe9t : 1042 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1043 ms
+eating : from philo[2] lwe9t : 1043 ms
+thinking :  from philo[1] lwe9t : 1053 ms
+tle9 the left fork from philo[2] lwe9t : 1053 ms
+tle9 the right fork from philo[2] lwe9t : 1053 ms
+sleeping :  from philo[2] lwe9t : 1053 ms
+took the left fork from philo[1] lwe9t : 1053 ms
+took the right fork from philo[1] lwe9t : 1053 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1053 ms
+eating : from philo[1] lwe9t : 1053 ms
+thinking :  from philo[2] lwe9t : 1063 ms
+tle9 the right fork from philo[1] lwe9t : 1063 ms
+tle9 the left fork from philo[1] lwe9t : 1063 ms
+sleeping :  from philo[1] lwe9t : 1063 ms
+took the right fork from philo[2] lwe9t : 1063 ms
+took the left fork from philo[2] lwe9t : 1063 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1063 ms
+eating : from philo[2] lwe9t : 1063 ms
+thinking :  from philo[1] lwe9t : 1073 ms
+tle9 the left fork from philo[2] lwe9t : 1073 ms
+tle9 the right fork from philo[2] lwe9t : 1073 ms
+sleeping :  from philo[2] lwe9t : 1073 ms
+took the left fork from philo[1] lwe9t : 1073 ms
+took the right fork from philo[1] lwe9t : 1073 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1073 ms
+eating : from philo[1] lwe9t : 1073 ms
+thinking :  from philo[2] lwe9t : 1083 ms
+tle9 the right fork from philo[1] lwe9t : 1083 ms
+tle9 the left fork from philo[1] lwe9t : 1083 ms
+sleeping :  from philo[1] lwe9t : 1083 ms
+took the right fork from philo[2] lwe9t : 1083 ms
+took the left fork from philo[2] lwe9t : 1083 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1083 ms
+eating : from philo[2] lwe9t : 1083 ms
+thinking :  from philo[1] lwe9t : 1093 ms
+tle9 the left fork from philo[2] lwe9t : 1093 ms
+tle9 the right fork from philo[2] lwe9t : 1093 ms
+sleeping :  from philo[2] lwe9t : 1093 ms
+took the left fork from philo[1] lwe9t : 1094 ms
+took the right fork from philo[1] lwe9t : 1094 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1094 ms
+eating : from philo[1] lwe9t : 1094 ms
+thinking :  from philo[2] lwe9t : 1103 ms
+tle9 the right fork from philo[1] lwe9t : 1104 ms
+tle9 the left fork from philo[1] lwe9t : 1104 ms
+sleeping :  from philo[1] lwe9t : 1104 ms
+took the right fork from philo[2] lwe9t : 1104 ms
+took the left fork from philo[2] lwe9t : 1104 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1104 ms
+eating : from philo[2] lwe9t : 1104 ms
+thinking :  from philo[1] lwe9t : 1114 ms
+tle9 the left fork from philo[2] lwe9t : 1114 ms
+tle9 the right fork from philo[2] lwe9t : 1114 ms
+sleeping :  from philo[2] lwe9t : 1114 ms
+took the left fork from philo[1] lwe9t : 1114 ms
+took the right fork from philo[1] lwe9t : 1114 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1114 ms
+eating : from philo[1] lwe9t : 1114 ms
+thinking :  from philo[2] lwe9t : 1124 ms
+tle9 the right fork from philo[1] lwe9t : 1124 ms
+tle9 the left fork from philo[1] lwe9t : 1124 ms
+sleeping :  from philo[1] lwe9t : 1124 ms
+took the right fork from philo[2] lwe9t : 1124 ms
+took the left fork from philo[2] lwe9t : 1124 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1124 ms
+eating : from philo[2] lwe9t : 1124 ms
+thinking :  from philo[1] lwe9t : 1134 ms
+tle9 the left fork from philo[2] lwe9t : 1134 ms
+tle9 the right fork from philo[2] lwe9t : 1134 ms
+sleeping :  from philo[2] lwe9t : 1134 ms
+took the left fork from philo[1] lwe9t : 1135 ms
+took the right fork from philo[1] lwe9t : 1135 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1135 ms
+eating : from philo[1] lwe9t : 1135 ms
+thinking :  from philo[2] lwe9t : 1144 ms
+tle9 the right fork from philo[1] lwe9t : 1145 ms
+tle9 the left fork from philo[1] lwe9t : 1145 ms
+sleeping :  from philo[1] lwe9t : 1145 ms
+took the right fork from philo[2] lwe9t : 1145 ms
+took the left fork from philo[2] lwe9t : 1145 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1145 ms
+eating : from philo[2] lwe9t : 1145 ms
+tle9 the left fork from philo[2] lwe9t : 1155 ms
+tle9 the right fork from philo[2] lwe9t : 1155 ms
+sleeping :  from philo[2] lwe9t : 1155 ms
+thinking :  from philo[1] lwe9t : 1155 ms
+took the left fork from philo[1] lwe9t : 1155 ms
+took the right fork from philo[1] lwe9t : 1155 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1155 ms
+eating : from philo[1] lwe9t : 1155 ms
+thinking :  from philo[2] lwe9t : 1165 ms
+tle9 the right fork from philo[1] lwe9t : 1165 ms
+tle9 the left fork from philo[1] lwe9t : 1165 ms
+sleeping :  from philo[1] lwe9t : 1165 ms
+took the right fork from philo[2] lwe9t : 1165 ms
+took the left fork from philo[2] lwe9t : 1165 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1165 ms
+eating : from philo[2] lwe9t : 1165 ms
+tle9 the left fork from philo[2] lwe9t : 1175 ms
+thinking :  from philo[1] lwe9t : 1175 ms
+tle9 the right fork from philo[2] lwe9t : 1175 ms
+sleeping :  from philo[2] lwe9t : 1175 ms
+took the left fork from philo[1] lwe9t : 1175 ms
+took the right fork from philo[1] lwe9t : 1175 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1175 ms
+eating : from philo[1] lwe9t : 1175 ms
+thinking :  from philo[2] lwe9t : 1185 ms
+tle9 the right fork from philo[1] lwe9t : 1185 ms
+tle9 the left fork from philo[1] lwe9t : 1185 ms
+sleeping :  from philo[1] lwe9t : 1186 ms
+took the right fork from philo[2] lwe9t : 1186 ms
+took the left fork from philo[2] lwe9t : 1186 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1186 ms
+eating : from philo[2] lwe9t : 1186 ms
+thinking :  from philo[1] lwe9t : 1196 ms
+tle9 the left fork from philo[2] lwe9t : 1196 ms
+tle9 the right fork from philo[2] lwe9t : 1196 ms
+sleeping :  from philo[2] lwe9t : 1196 ms
+took the left fork from philo[1] lwe9t : 1196 ms
+took the right fork from philo[1] lwe9t : 1196 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1196 ms
+eating : from philo[1] lwe9t : 1196 ms
+thinking :  from philo[2] lwe9t : 1206 ms
+tle9 the right fork from philo[1] lwe9t : 1206 ms
+tle9 the left fork from philo[1] lwe9t : 1206 ms
+sleeping :  from philo[1] lwe9t : 1206 ms
+took the right fork from philo[2] lwe9t : 1206 ms
+took the left fork from philo[2] lwe9t : 1206 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1206 ms
+eating : from philo[2] lwe9t : 1206 ms
+thinking :  from philo[1] lwe9t : 1216 ms
+tle9 the left fork from philo[2] lwe9t : 1216 ms
+tle9 the right fork from philo[2] lwe9t : 1216 ms
+sleeping :  from philo[2] lwe9t : 1216 ms
+took the left fork from philo[1] lwe9t : 1216 ms
+took the right fork from philo[1] lwe9t : 1216 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1216 ms
+eating : from philo[1] lwe9t : 1216 ms
+thinking :  from philo[2] lwe9t : 1226 ms
+tle9 the right fork from philo[1] lwe9t : 1226 ms
+tle9 the left fork from philo[1] lwe9t : 1226 ms
+sleeping :  from philo[1] lwe9t : 1226 ms
+took the right fork from philo[2] lwe9t : 1226 ms
+took the left fork from philo[2] lwe9t : 1226 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1226 ms
+eating : from philo[2] lwe9t : 1226 ms
+thinking :  from philo[1] lwe9t : 1236 ms
+tle9 the left fork from philo[2] lwe9t : 1236 ms
+tle9 the right fork from philo[2] lwe9t : 1236 ms
+sleeping :  from philo[2] lwe9t : 1236 ms
+took the left fork from philo[1] lwe9t : 1237 ms
+took the right fork from philo[1] lwe9t : 1237 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1237 ms
+eating : from philo[1] lwe9t : 1237 ms
+thinking :  from philo[2] lwe9t : 1247 ms
+tle9 the right fork from philo[1] lwe9t : 1247 ms
+tle9 the left fork from philo[1] lwe9t : 1247 ms
+sleeping :  from philo[1] lwe9t : 1247 ms
+took the right fork from philo[2] lwe9t : 1247 ms
+took the left fork from philo[2] lwe9t : 1247 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1247 ms
+eating : from philo[2] lwe9t : 1247 ms
+thinking :  from philo[1] lwe9t : 1257 ms
+tle9 the left fork from philo[2] lwe9t : 1257 ms
+tle9 the right fork from philo[2] lwe9t : 1257 ms
+sleeping :  from philo[2] lwe9t : 1257 ms
+took the left fork from philo[1] lwe9t : 1257 ms
+took the right fork from philo[1] lwe9t : 1257 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1257 ms
+eating : from philo[1] lwe9t : 1257 ms
+thinking :  from philo[2] lwe9t : 1267 ms
+tle9 the right fork from philo[1] lwe9t : 1267 ms
+tle9 the left fork from philo[1] lwe9t : 1267 ms
+sleeping :  from philo[1] lwe9t : 1267 ms
+took the right fork from philo[2] lwe9t : 1267 ms
+took the left fork from philo[2] lwe9t : 1267 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1267 ms
+eating : from philo[2] lwe9t : 1267 ms
+thinking :  from philo[1] lwe9t : 1277 ms
+tle9 the left fork from philo[2] lwe9t : 1277 ms
+tle9 the right fork from philo[2] lwe9t : 1277 ms
+sleeping :  from philo[2] lwe9t : 1277 ms
+took the left fork from philo[1] lwe9t : 1278 ms
+took the right fork from philo[1] lwe9t : 1278 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1278 ms
+eating : from philo[1] lwe9t : 1278 ms
+thinking :  from philo[2] lwe9t : 1287 ms
+tle9 the right fork from philo[1] lwe9t : 1288 ms
+tle9 the left fork from philo[1] lwe9t : 1288 ms
+sleeping :  from philo[1] lwe9t : 1288 ms
+took the right fork from philo[2] lwe9t : 1288 ms
+took the left fork from philo[2] lwe9t : 1288 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1288 ms
+eating : from philo[2] lwe9t : 1288 ms
+thinking :  from philo[1] lwe9t : 1298 ms
+tle9 the left fork from philo[2] lwe9t : 1298 ms
+tle9 the right fork from philo[2] lwe9t : 1298 ms
+sleeping :  from philo[2] lwe9t : 1298 ms
+took the left fork from philo[1] lwe9t : 1298 ms
+took the right fork from philo[1] lwe9t : 1298 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1298 ms
+eating : from philo[1] lwe9t : 1298 ms
+thinking :  from philo[2] lwe9t : 1308 ms
+tle9 the right fork from philo[1] lwe9t : 1308 ms
+tle9 the left fork from philo[1] lwe9t : 1308 ms
+sleeping :  from philo[1] lwe9t : 1308 ms
+took the right fork from philo[2] lwe9t : 1308 ms
+took the left fork from philo[2] lwe9t : 1308 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1308 ms
+eating : from philo[2] lwe9t : 1308 ms
+thinking :  from philo[1] lwe9t : 1318 ms
+tle9 the left fork from philo[2] lwe9t : 1318 ms
+tle9 the right fork from philo[2] lwe9t : 1318 ms
+sleeping :  from philo[2] lwe9t : 1318 ms
+took the left fork from philo[1] lwe9t : 1319 ms
+took the right fork from philo[1] lwe9t : 1319 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1319 ms
+eating : from philo[1] lwe9t : 1319 ms
+thinking :  from philo[2] lwe9t : 1328 ms
+tle9 the right fork from philo[1] lwe9t : 1329 ms
+tle9 the left fork from philo[1] lwe9t : 1329 ms
+sleeping :  from philo[1] lwe9t : 1329 ms
+took the right fork from philo[2] lwe9t : 1329 ms
+took the left fork from philo[2] lwe9t : 1329 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1329 ms
+eating : from philo[2] lwe9t : 1329 ms
+thinking :  from philo[1] lwe9t : 1339 ms
+tle9 the left fork from philo[2] lwe9t : 1339 ms
+tle9 the right fork from philo[2] lwe9t : 1339 ms
+sleeping :  from philo[2] lwe9t : 1339 ms
+took the left fork from philo[1] lwe9t : 1339 ms
+took the right fork from philo[1] lwe9t : 1339 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1339 ms
+eating : from philo[1] lwe9t : 1339 ms
+thinking :  from philo[2] lwe9t : 1349 ms
+tle9 the right fork from philo[1] lwe9t : 1349 ms
+tle9 the left fork from philo[1] lwe9t : 1349 ms
+sleeping :  from philo[1] lwe9t : 1349 ms
+took the right fork from philo[2] lwe9t : 1349 ms
+took the left fork from philo[2] lwe9t : 1349 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1349 ms
+eating : from philo[2] lwe9t : 1349 ms
+thinking :  from philo[1] lwe9t : 1359 ms
+tle9 the left fork from philo[2] lwe9t : 1359 ms
+tle9 the right fork from philo[2] lwe9t : 1359 ms
+sleeping :  from philo[2] lwe9t : 1359 ms
+took the left fork from philo[1] lwe9t : 1359 ms
+took the right fork from philo[1] lwe9t : 1359 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1359 ms
+eating : from philo[1] lwe9t : 1359 ms
+thinking :  from philo[2] lwe9t : 1369 ms
+tle9 the right fork from philo[1] lwe9t : 1369 ms
+tle9 the left fork from philo[1] lwe9t : 1369 ms
+sleeping :  from philo[1] lwe9t : 1369 ms
+took the right fork from philo[2] lwe9t : 1369 ms
+took the left fork from philo[2] lwe9t : 1369 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1369 ms
+eating : from philo[2] lwe9t : 1369 ms
+thinking :  from philo[1] lwe9t : 1379 ms
+tle9 the left fork from philo[2] lwe9t : 1379 ms
+tle9 the right fork from philo[2] lwe9t : 1379 ms
+sleeping :  from philo[2] lwe9t : 1379 ms
+took the left fork from philo[1] lwe9t : 1380 ms
+took the right fork from philo[1] lwe9t : 1380 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1380 ms
+eating : from philo[1] lwe9t : 1380 ms
+thinking :  from philo[2] lwe9t : 1390 ms
+tle9 the right fork from philo[1] lwe9t : 1390 ms
+tle9 the left fork from philo[1] lwe9t : 1390 ms
+sleeping :  from philo[1] lwe9t : 1390 ms
+took the right fork from philo[2] lwe9t : 1390 ms
+took the left fork from philo[2] lwe9t : 1390 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1390 ms
+eating : from philo[2] lwe9t : 1390 ms
+thinking :  from philo[1] lwe9t : 1400 ms
+tle9 the left fork from philo[2] lwe9t : 1400 ms
+tle9 the right fork from philo[2] lwe9t : 1400 ms
+sleeping :  from philo[2] lwe9t : 1400 ms
+took the left fork from philo[1] lwe9t : 1400 ms
+took the right fork from philo[1] lwe9t : 1400 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1400 ms
+eating : from philo[1] lwe9t : 1400 ms
+thinking :  from philo[2] lwe9t : 1410 ms
+tle9 the right fork from philo[1] lwe9t : 1410 ms
+tle9 the left fork from philo[1] lwe9t : 1410 ms
+sleeping :  from philo[1] lwe9t : 1410 ms
+took the right fork from philo[2] lwe9t : 1410 ms
+took the left fork from philo[2] lwe9t : 1410 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1410 ms
+eating : from philo[2] lwe9t : 1410 ms
+thinking :  from philo[1] lwe9t : 1420 ms
+tle9 the left fork from philo[2] lwe9t : 1420 ms
+tle9 the right fork from philo[2] lwe9t : 1420 ms
+sleeping :  from philo[2] lwe9t : 1420 ms
+took the left fork from philo[1] lwe9t : 1421 ms
+took the right fork from philo[1] lwe9t : 1421 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1421 ms
+eating : from philo[1] lwe9t : 1421 ms
+thinking :  from philo[2] lwe9t : 1430 ms
+tle9 the right fork from philo[1] lwe9t : 1431 ms
+tle9 the left fork from philo[1] lwe9t : 1431 ms
+sleeping :  from philo[1] lwe9t : 1431 ms
+took the right fork from philo[2] lwe9t : 1431 ms
+took the left fork from philo[2] lwe9t : 1431 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1431 ms
+eating : from philo[2] lwe9t : 1431 ms
+thinking :  from philo[1] lwe9t : 1441 ms
+tle9 the left fork from philo[2] lwe9t : 1441 ms
+tle9 the right fork from philo[2] lwe9t : 1441 ms
+sleeping :  from philo[2] lwe9t : 1441 ms
+took the left fork from philo[1] lwe9t : 1441 ms
+took the right fork from philo[1] lwe9t : 1441 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1441 ms
+eating : from philo[1] lwe9t : 1441 ms
+thinking :  from philo[2] lwe9t : 1451 ms
+tle9 the right fork from philo[1] lwe9t : 1451 ms
+tle9 the left fork from philo[1] lwe9t : 1451 ms
+sleeping :  from philo[1] lwe9t : 1451 ms
+took the right fork from philo[2] lwe9t : 1451 ms
+took the left fork from philo[2] lwe9t : 1451 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1451 ms
+eating : from philo[2] lwe9t : 1451 ms
+thinking :  from philo[1] lwe9t : 1461 ms
+tle9 the left fork from philo[2] lwe9t : 1461 ms
+tle9 the right fork from philo[2] lwe9t : 1461 ms
+sleeping :  from philo[2] lwe9t : 1461 ms
+took the left fork from philo[1] lwe9t : 1462 ms
+took the right fork from philo[1] lwe9t : 1462 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1462 ms
+eating : from philo[1] lwe9t : 1462 ms
+thinking :  from philo[2] lwe9t : 1471 ms
+tle9 the right fork from philo[1] lwe9t : 1472 ms
+tle9 the left fork from philo[1] lwe9t : 1472 ms
+sleeping :  from philo[1] lwe9t : 1472 ms
+took the right fork from philo[2] lwe9t : 1472 ms
+took the left fork from philo[2] lwe9t : 1472 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1472 ms
+eating : from philo[2] lwe9t : 1472 ms
+thinking :  from philo[1] lwe9t : 1482 ms
+tle9 the left fork from philo[2] lwe9t : 1482 ms
+tle9 the right fork from philo[2] lwe9t : 1482 ms
+sleeping :  from philo[2] lwe9t : 1482 ms
+took the left fork from philo[1] lwe9t : 1482 ms
+took the right fork from philo[1] lwe9t : 1482 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1482 ms
+eating : from philo[1] lwe9t : 1482 ms
+thinking :  from philo[2] lwe9t : 1492 ms
+tle9 the right fork from philo[1] lwe9t : 1492 ms
+tle9 the left fork from philo[1] lwe9t : 1492 ms
+sleeping :  from philo[1] lwe9t : 1492 ms
+took the right fork from philo[2] lwe9t : 1492 ms
+took the left fork from philo[2] lwe9t : 1492 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1492 ms
+eating : from philo[2] lwe9t : 1492 ms
+thinking :  from philo[1] lwe9t : 1502 ms
+tle9 the left fork from philo[2] lwe9t : 1502 ms
+tle9 the right fork from philo[2] lwe9t : 1502 ms
+sleeping :  from philo[2] lwe9t : 1502 ms
+took the left fork from philo[1] lwe9t : 1502 ms
+took the right fork from philo[1] lwe9t : 1502 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1502 ms
+eating : from philo[1] lwe9t : 1503 ms
+thinking :  from philo[2] lwe9t : 1512 ms
+tle9 the right fork from philo[1] lwe9t : 1513 ms
+tle9 the left fork from philo[1] lwe9t : 1513 ms
+sleeping :  from philo[1] lwe9t : 1513 ms
+took the right fork from philo[2] lwe9t : 1513 ms
+took the left fork from philo[2] lwe9t : 1513 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1513 ms
+eating : from philo[2] lwe9t : 1513 ms
+thinking :  from philo[1] lwe9t : 1523 ms
+tle9 the left fork from philo[2] lwe9t : 1523 ms
+tle9 the right fork from philo[2] lwe9t : 1523 ms
+sleeping :  from philo[2] lwe9t : 1523 ms
+took the left fork from philo[1] lwe9t : 1523 ms
+took the right fork from philo[1] lwe9t : 1523 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1523 ms
+eating : from philo[1] lwe9t : 1523 ms
+thinking :  from philo[2] lwe9t : 1533 ms
+tle9 the right fork from philo[1] lwe9t : 1533 ms
+tle9 the left fork from philo[1] lwe9t : 1533 ms
+sleeping :  from philo[1] lwe9t : 1533 ms
+took the right fork from philo[2] lwe9t : 1533 ms
+took the left fork from philo[2] lwe9t : 1533 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1533 ms
+eating : from philo[2] lwe9t : 1533 ms
+thinking :  from philo[1] lwe9t : 1543 ms
+tle9 the left fork from philo[2] lwe9t : 1543 ms
+tle9 the right fork from philo[2] lwe9t : 1543 ms
+sleeping :  from philo[2] lwe9t : 1543 ms
+took the left fork from philo[1] lwe9t : 1543 ms
+took the right fork from philo[1] lwe9t : 1543 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1543 ms
+eating : from philo[1] lwe9t : 1543 ms
+thinking :  from philo[2] lwe9t : 1553 ms
+tle9 the right fork from philo[1] lwe9t : 1553 ms
+tle9 the left fork from philo[1] lwe9t : 1553 ms
+sleeping :  from philo[1] lwe9t : 1553 ms
+took the right fork from philo[2] lwe9t : 1553 ms
+took the left fork from philo[2] lwe9t : 1553 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1553 ms
+eating : from philo[2] lwe9t : 1553 ms
+thinking :  from philo[1] lwe9t : 1563 ms
+tle9 the left fork from philo[2] lwe9t : 1563 ms
+tle9 the right fork from philo[2] lwe9t : 1563 ms
+sleeping :  from philo[2] lwe9t : 1563 ms
+took the left fork from philo[1] lwe9t : 1564 ms
+took the right fork from philo[1] lwe9t : 1564 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1564 ms
+eating : from philo[1] lwe9t : 1564 ms
+thinking :  from philo[2] lwe9t : 1573 ms
+tle9 the right fork from philo[1] lwe9t : 1574 ms
+tle9 the left fork from philo[1] lwe9t : 1574 ms
+sleeping :  from philo[1] lwe9t : 1574 ms
+took the right fork from philo[2] lwe9t : 1574 ms
+took the left fork from philo[2] lwe9t : 1574 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1574 ms
+eating : from philo[2] lwe9t : 1574 ms
+thinking :  from philo[1] lwe9t : 1584 ms
+tle9 the left fork from philo[2] lwe9t : 1584 ms
+tle9 the right fork from philo[2] lwe9t : 1584 ms
+sleeping :  from philo[2] lwe9t : 1584 ms
+took the left fork from philo[1] lwe9t : 1584 ms
+took the right fork from philo[1] lwe9t : 1584 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1584 ms
+eating : from philo[1] lwe9t : 1584 ms
+thinking :  from philo[2] lwe9t : 1594 ms
+tle9 the right fork from philo[1] lwe9t : 1594 ms
+tle9 the left fork from philo[1] lwe9t : 1594 ms
+sleeping :  from philo[1] lwe9t : 1594 ms
+took the right fork from philo[2] lwe9t : 1594 ms
+took the left fork from philo[2] lwe9t : 1594 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1594 ms
+eating : from philo[2] lwe9t : 1594 ms
+thinking :  from philo[1] lwe9t : 1604 ms
+tle9 the left fork from philo[2] lwe9t : 1604 ms
+tle9 the right fork from philo[2] lwe9t : 1604 ms
+sleeping :  from philo[2] lwe9t : 1604 ms
+took the left fork from philo[1] lwe9t : 1605 ms
+took the right fork from philo[1] lwe9t : 1605 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1605 ms
+eating : from philo[1] lwe9t : 1605 ms
+thinking :  from philo[2] lwe9t : 1614 ms
+tle9 the right fork from philo[1] lwe9t : 1615 ms
+tle9 the left fork from philo[1] lwe9t : 1615 ms
+sleeping :  from philo[1] lwe9t : 1615 ms
+took the right fork from philo[2] lwe9t : 1615 ms
+took the left fork from philo[2] lwe9t : 1615 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1615 ms
+eating : from philo[2] lwe9t : 1615 ms
+thinking :  from philo[1] lwe9t : 1625 ms
+tle9 the left fork from philo[2] lwe9t : 1625 ms
+tle9 the right fork from philo[2] lwe9t : 1625 ms
+sleeping :  from philo[2] lwe9t : 1625 ms
+took the left fork from philo[1] lwe9t : 1625 ms
+took the right fork from philo[1] lwe9t : 1625 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1625 ms
+eating : from philo[1] lwe9t : 1625 ms
+thinking :  from philo[2] lwe9t : 1635 ms
+tle9 the right fork from philo[1] lwe9t : 1635 ms
+tle9 the left fork from philo[1] lwe9t : 1635 ms
+sleeping :  from philo[1] lwe9t : 1635 ms
+took the right fork from philo[2] lwe9t : 1635 ms
+took the left fork from philo[2] lwe9t : 1635 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1635 ms
+eating : from philo[2] lwe9t : 1635 ms
+tle9 the left fork from philo[2] lwe9t : 1645 ms
+thinking :  from philo[1] lwe9t : 1645 ms
+tle9 the right fork from philo[2] lwe9t : 1645 ms
+sleeping :  from philo[2] lwe9t : 1645 ms
+took the left fork from philo[1] lwe9t : 1645 ms
+took the right fork from philo[1] lwe9t : 1645 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1646 ms
+eating : from philo[1] lwe9t : 1646 ms
+thinking :  from philo[2] lwe9t : 1655 ms
+tle9 the right fork from philo[1] lwe9t : 1656 ms
+tle9 the left fork from philo[1] lwe9t : 1656 ms
+sleeping :  from philo[1] lwe9t : 1656 ms
+took the right fork from philo[2] lwe9t : 1656 ms
+took the left fork from philo[2] lwe9t : 1656 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1656 ms
+eating : from philo[2] lwe9t : 1656 ms
+thinking :  from philo[1] lwe9t : 1666 ms
+tle9 the left fork from philo[2] lwe9t : 1666 ms
+tle9 the right fork from philo[2] lwe9t : 1666 ms
+sleeping :  from philo[2] lwe9t : 1666 ms
+took the left fork from philo[1] lwe9t : 1666 ms
+took the right fork from philo[1] lwe9t : 1666 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1666 ms
+eating : from philo[1] lwe9t : 1666 ms
+thinking :  from philo[2] lwe9t : 1676 ms
+tle9 the right fork from philo[1] lwe9t : 1676 ms
+tle9 the left fork from philo[1] lwe9t : 1676 ms
+sleeping :  from philo[1] lwe9t : 1676 ms
+took the right fork from philo[2] lwe9t : 1676 ms
+took the left fork from philo[2] lwe9t : 1676 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1676 ms
+eating : from philo[2] lwe9t : 1676 ms
+thinking :  from philo[1] lwe9t : 1686 ms
+tle9 the left fork from philo[2] lwe9t : 1686 ms
+tle9 the right fork from philo[2] lwe9t : 1686 ms
+sleeping :  from philo[2] lwe9t : 1686 ms
+took the left fork from philo[1] lwe9t : 1686 ms
+took the right fork from philo[1] lwe9t : 1686 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1686 ms
+eating : from philo[1] lwe9t : 1686 ms
+thinking :  from philo[2] lwe9t : 1696 ms
+tle9 the right fork from philo[1] lwe9t : 1696 ms
+tle9 the left fork from philo[1] lwe9t : 1696 ms
+sleeping :  from philo[1] lwe9t : 1696 ms
+took the right fork from philo[2] lwe9t : 1696 ms
+took the left fork from philo[2] lwe9t : 1696 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1696 ms
+eating : from philo[2] lwe9t : 1696 ms
+thinking :  from philo[1] lwe9t : 1706 ms
+tle9 the left fork from philo[2] lwe9t : 1706 ms
+tle9 the right fork from philo[2] lwe9t : 1706 ms
+sleeping :  from philo[2] lwe9t : 1706 ms
+took the left fork from philo[1] lwe9t : 1707 ms
+took the right fork from philo[1] lwe9t : 1707 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1707 ms
+eating : from philo[1] lwe9t : 1707 ms
+thinking :  from philo[2] lwe9t : 1717 ms
+tle9 the right fork from philo[1] lwe9t : 1717 ms
+tle9 the left fork from philo[1] lwe9t : 1717 ms
+sleeping :  from philo[1] lwe9t : 1717 ms
+took the right fork from philo[2] lwe9t : 1717 ms
+took the left fork from philo[2] lwe9t : 1717 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1717 ms
+eating : from philo[2] lwe9t : 1717 ms
+thinking :  from philo[1] lwe9t : 1727 ms
+tle9 the left fork from philo[2] lwe9t : 1727 ms
+tle9 the right fork from philo[2] lwe9t : 1727 ms
+sleeping :  from philo[2] lwe9t : 1727 ms
+took the left fork from philo[1] lwe9t : 1727 ms
+took the right fork from philo[1] lwe9t : 1727 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1727 ms
+eating : from philo[1] lwe9t : 1727 ms
+thinking :  from philo[2] lwe9t : 1737 ms
+tle9 the right fork from philo[1] lwe9t : 1737 ms
+tle9 the left fork from philo[1] lwe9t : 1737 ms
+sleeping :  from philo[1] lwe9t : 1737 ms
+took the right fork from philo[2] lwe9t : 1737 ms
+took the left fork from philo[2] lwe9t : 1737 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1737 ms
+eating : from philo[2] lwe9t : 1737 ms
+thinking :  from philo[1] lwe9t : 1747 ms
+tle9 the left fork from philo[2] lwe9t : 1747 ms
+tle9 the right fork from philo[2] lwe9t : 1747 ms
+sleeping :  from philo[2] lwe9t : 1747 ms
+took the left fork from philo[1] lwe9t : 1748 ms
+took the right fork from philo[1] lwe9t : 1748 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1748 ms
+eating : from philo[1] lwe9t : 1748 ms
+thinking :  from philo[2] lwe9t : 1757 ms
+tle9 the right fork from philo[1] lwe9t : 1758 ms
+tle9 the left fork from philo[1] lwe9t : 1758 ms
+sleeping :  from philo[1] lwe9t : 1758 ms
+took the right fork from philo[2] lwe9t : 1758 ms
+took the left fork from philo[2] lwe9t : 1758 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1758 ms
+eating : from philo[2] lwe9t : 1758 ms
+tle9 the left fork from philo[2] lwe9t : 1768 ms
+tle9 the right fork from philo[2] lwe9t : 1768 ms
+sleeping :  from philo[2] lwe9t : 1768 ms
+thinking :  from philo[1] lwe9t : 1768 ms
+took the left fork from philo[1] lwe9t : 1768 ms
+took the right fork from philo[1] lwe9t : 1768 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1768 ms
+eating : from philo[1] lwe9t : 1768 ms
+thinking :  from philo[2] lwe9t : 1778 ms
+tle9 the right fork from philo[1] lwe9t : 1778 ms
+tle9 the left fork from philo[1] lwe9t : 1778 ms
+sleeping :  from philo[1] lwe9t : 1778 ms
+took the right fork from philo[2] lwe9t : 1778 ms
+took the left fork from philo[2] lwe9t : 1778 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1778 ms
+eating : from philo[2] lwe9t : 1778 ms
+thinking :  from philo[1] lwe9t : 1788 ms
+tle9 the left fork from philo[2] lwe9t : 1788 ms
+tle9 the right fork from philo[2] lwe9t : 1788 ms
+sleeping :  from philo[2] lwe9t : 1788 ms
+took the left fork from philo[1] lwe9t : 1789 ms
+took the right fork from philo[1] lwe9t : 1789 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1789 ms
+eating : from philo[1] lwe9t : 1789 ms
+thinking :  from philo[2] lwe9t : 1798 ms
+tle9 the right fork from philo[1] lwe9t : 1799 ms
+tle9 the left fork from philo[1] lwe9t : 1799 ms
+sleeping :  from philo[1] lwe9t : 1799 ms
+took the right fork from philo[2] lwe9t : 1799 ms
+took the left fork from philo[2] lwe9t : 1799 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1799 ms
+eating : from philo[2] lwe9t : 1799 ms
+thinking :  from philo[1] lwe9t : 1809 ms
+tle9 the left fork from philo[2] lwe9t : 1809 ms
+tle9 the right fork from philo[2] lwe9t : 1809 ms
+sleeping :  from philo[2] lwe9t : 1809 ms
+took the left fork from philo[1] lwe9t : 1809 ms
+took the right fork from philo[1] lwe9t : 1809 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1809 ms
+eating : from philo[1] lwe9t : 1809 ms
+thinking :  from philo[2] lwe9t : 1819 ms
+tle9 the right fork from philo[1] lwe9t : 1819 ms
+tle9 the left fork from philo[1] lwe9t : 1819 ms
+sleeping :  from philo[1] lwe9t : 1819 ms
+took the right fork from philo[2] lwe9t : 1819 ms
+took the left fork from philo[2] lwe9t : 1819 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1819 ms
+eating : from philo[2] lwe9t : 1819 ms
+thinking :  from philo[1] lwe9t : 1829 ms
+tle9 the left fork from philo[2] lwe9t : 1829 ms
+tle9 the right fork from philo[2] lwe9t : 1829 ms
+sleeping :  from philo[2] lwe9t : 1829 ms
+took the left fork from philo[1] lwe9t : 1829 ms
+took the right fork from philo[1] lwe9t : 1829 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1829 ms
+eating : from philo[1] lwe9t : 1829 ms
+thinking :  from philo[2] lwe9t : 1839 ms
+tle9 the right fork from philo[1] lwe9t : 1839 ms
+tle9 the left fork from philo[1] lwe9t : 1839 ms
+sleeping :  from philo[1] lwe9t : 1839 ms
+took the right fork from philo[2] lwe9t : 1839 ms
+took the left fork from philo[2] lwe9t : 1839 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1839 ms
+eating : from philo[2] lwe9t : 1839 ms
+thinking :  from philo[1] lwe9t : 1849 ms
+tle9 the left fork from philo[2] lwe9t : 1850 ms
+tle9 the right fork from philo[2] lwe9t : 1850 ms
+sleeping :  from philo[2] lwe9t : 1850 ms
+took the left fork from philo[1] lwe9t : 1850 ms
+took the right fork from philo[1] lwe9t : 1850 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1850 ms
+eating : from philo[1] lwe9t : 1850 ms
+thinking :  from philo[2] lwe9t : 1860 ms
+tle9 the right fork from philo[1] lwe9t : 1860 ms
+tle9 the left fork from philo[1] lwe9t : 1860 ms
+sleeping :  from philo[1] lwe9t : 1860 ms
+took the right fork from philo[2] lwe9t : 1860 ms
+took the left fork from philo[2] lwe9t : 1860 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1860 ms
+eating : from philo[2] lwe9t : 1860 ms
+thinking :  from philo[1] lwe9t : 1870 ms
+tle9 the left fork from philo[2] lwe9t : 1870 ms
+tle9 the right fork from philo[2] lwe9t : 1870 ms
+sleeping :  from philo[2] lwe9t : 1870 ms
+took the left fork from philo[1] lwe9t : 1870 ms
+took the right fork from philo[1] lwe9t : 1870 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1870 ms
+eating : from philo[1] lwe9t : 1870 ms
+thinking :  from philo[2] lwe9t : 1880 ms
+tle9 the right fork from philo[1] lwe9t : 1880 ms
+tle9 the left fork from philo[1] lwe9t : 1880 ms
+sleeping :  from philo[1] lwe9t : 1880 ms
+took the right fork from philo[2] lwe9t : 1880 ms
+took the left fork from philo[2] lwe9t : 1880 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1880 ms
+eating : from philo[2] lwe9t : 1880 ms
+thinking :  from philo[1] lwe9t : 1890 ms
+tle9 the left fork from philo[2] lwe9t : 1890 ms
+tle9 the right fork from philo[2] lwe9t : 1890 ms
+sleeping :  from philo[2] lwe9t : 1890 ms
+took the left fork from philo[1] lwe9t : 1891 ms
+took the right fork from philo[1] lwe9t : 1891 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1891 ms
+eating : from philo[1] lwe9t : 1891 ms
+thinking :  from philo[2] lwe9t : 1900 ms
+tle9 the right fork from philo[1] lwe9t : 1901 ms
+tle9 the left fork from philo[1] lwe9t : 1901 ms
+sleeping :  from philo[1] lwe9t : 1901 ms
+took the right fork from philo[2] lwe9t : 1901 ms
+took the left fork from philo[2] lwe9t : 1901 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1901 ms
+eating : from philo[2] lwe9t : 1901 ms
+thinking :  from philo[1] lwe9t : 1911 ms
+tle9 the left fork from philo[2] lwe9t : 1911 ms
+tle9 the right fork from philo[2] lwe9t : 1911 ms
+sleeping :  from philo[2] lwe9t : 1911 ms
+took the left fork from philo[1] lwe9t : 1911 ms
+took the right fork from philo[1] lwe9t : 1911 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1911 ms
+eating : from philo[1] lwe9t : 1911 ms
+thinking :  from philo[2] lwe9t : 1921 ms
+tle9 the right fork from philo[1] lwe9t : 1921 ms
+tle9 the left fork from philo[1] lwe9t : 1921 ms
+sleeping :  from philo[1] lwe9t : 1921 ms
+took the right fork from philo[2] lwe9t : 1921 ms
+took the left fork from philo[2] lwe9t : 1921 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1921 ms
+eating : from philo[2] lwe9t : 1921 ms
+thinking :  from philo[1] lwe9t : 1931 ms
+tle9 the left fork from philo[2] lwe9t : 1931 ms
+tle9 the right fork from philo[2] lwe9t : 1931 ms
+sleeping :  from philo[2] lwe9t : 1931 ms
+took the left fork from philo[1] lwe9t : 1932 ms
+took the right fork from philo[1] lwe9t : 1932 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1932 ms
+eating : from philo[1] lwe9t : 1932 ms
+thinking :  from philo[2] lwe9t : 1941 ms
+tle9 the right fork from philo[1] lwe9t : 1942 ms
+tle9 the left fork from philo[1] lwe9t : 1942 ms
+sleeping :  from philo[1] lwe9t : 1942 ms
+took the right fork from philo[2] lwe9t : 1942 ms
+took the left fork from philo[2] lwe9t : 1942 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1942 ms
+eating : from philo[2] lwe9t : 1942 ms
+thinking :  from philo[1] lwe9t : 1952 ms
+tle9 the left fork from philo[2] lwe9t : 1952 ms
+tle9 the right fork from philo[2] lwe9t : 1952 ms
+sleeping :  from philo[2] lwe9t : 1952 ms
+took the left fork from philo[1] lwe9t : 1952 ms
+took the right fork from philo[1] lwe9t : 1952 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1952 ms
+eating : from philo[1] lwe9t : 1952 ms
+thinking :  from philo[2] lwe9t : 1962 ms
+tle9 the right fork from philo[1] lwe9t : 1962 ms
+tle9 the left fork from philo[1] lwe9t : 1962 ms
+sleeping :  from philo[1] lwe9t : 1962 ms
+took the right fork from philo[2] lwe9t : 1962 ms
+took the left fork from philo[2] lwe9t : 1962 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1962 ms
+eating : from philo[2] lwe9t : 1962 ms
+thinking :  from philo[1] lwe9t : 1972 ms
+tle9 the left fork from philo[2] lwe9t : 1972 ms
+tle9 the right fork from philo[2] lwe9t : 1972 ms
+sleeping :  from philo[2] lwe9t : 1972 ms
+took the left fork from philo[1] lwe9t : 1972 ms
+took the right fork from philo[1] lwe9t : 1972 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1972 ms
+eating : from philo[1] lwe9t : 1972 ms
+thinking :  from philo[2] lwe9t : 1982 ms
+tle9 the right fork from philo[1] lwe9t : 1982 ms
+tle9 the left fork from philo[1] lwe9t : 1982 ms
+sleeping :  from philo[1] lwe9t : 1982 ms
+took the right fork from philo[2] lwe9t : 1983 ms
+took the left fork from philo[2] lwe9t : 1983 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 1983 ms
+eating : from philo[2] lwe9t : 1983 ms
+thinking :  from philo[1] lwe9t : 1993 ms
+tle9 the left fork from philo[2] lwe9t : 1993 ms
+tle9 the right fork from philo[2] lwe9t : 1993 ms
+sleeping :  from philo[2] lwe9t : 1993 ms
+took the left fork from philo[1] lwe9t : 1993 ms
+took the right fork from philo[1] lwe9t : 1993 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 1993 ms
+eating : from philo[1] lwe9t : 1993 ms
+thinking :  from philo[2] lwe9t : 2002 ms
+tle9 the right fork from philo[1] lwe9t : 2002 ms
+tle9 the left fork from philo[1] lwe9t : 2002 ms
+sleeping :  from philo[1] lwe9t : 2002 ms
+took the right fork from philo[2] lwe9t : 2002 ms
+took the left fork from philo[2] lwe9t : 2002 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2002 ms
+eating : from philo[2] lwe9t : 2002 ms
+thinking :  from philo[1] lwe9t : 2012 ms
+tle9 the left fork from philo[2] lwe9t : 2012 ms
+tle9 the right fork from philo[2] lwe9t : 2012 ms
+sleeping :  from philo[2] lwe9t : 2012 ms
+took the left fork from philo[1] lwe9t : 2012 ms
+took the right fork from philo[1] lwe9t : 2012 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2012 ms
+eating : from philo[1] lwe9t : 2012 ms
+thinking :  from philo[2] lwe9t : 2022 ms
+tle9 the right fork from philo[1] lwe9t : 2022 ms
+tle9 the left fork from philo[1] lwe9t : 2022 ms
+sleeping :  from philo[1] lwe9t : 2022 ms
+took the right fork from philo[2] lwe9t : 2022 ms
+took the left fork from philo[2] lwe9t : 2022 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2022 ms
+eating : from philo[2] lwe9t : 2022 ms
+thinking :  from philo[1] lwe9t : 2032 ms
+tle9 the left fork from philo[2] lwe9t : 2032 ms
+tle9 the right fork from philo[2] lwe9t : 2032 ms
+sleeping :  from philo[2] lwe9t : 2032 ms
+took the left fork from philo[1] lwe9t : 2033 ms
+took the right fork from philo[1] lwe9t : 2033 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2033 ms
+eating : from philo[1] lwe9t : 2033 ms
+thinking :  from philo[2] lwe9t : 2042 ms
+tle9 the right fork from philo[1] lwe9t : 2043 ms
+tle9 the left fork from philo[1] lwe9t : 2043 ms
+sleeping :  from philo[1] lwe9t : 2043 ms
+took the right fork from philo[2] lwe9t : 2043 ms
+took the left fork from philo[2] lwe9t : 2043 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2043 ms
+eating : from philo[2] lwe9t : 2043 ms
+thinking :  from philo[1] lwe9t : 2053 ms
+tle9 the left fork from philo[2] lwe9t : 2053 ms
+tle9 the right fork from philo[2] lwe9t : 2053 ms
+sleeping :  from philo[2] lwe9t : 2053 ms
+took the left fork from philo[1] lwe9t : 2053 ms
+took the right fork from philo[1] lwe9t : 2053 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2053 ms
+eating : from philo[1] lwe9t : 2053 ms
+thinking :  from philo[2] lwe9t : 2063 ms
+tle9 the right fork from philo[1] lwe9t : 2063 ms
+tle9 the left fork from philo[1] lwe9t : 2063 ms
+sleeping :  from philo[1] lwe9t : 2063 ms
+took the right fork from philo[2] lwe9t : 2063 ms
+took the left fork from philo[2] lwe9t : 2063 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2063 ms
+eating : from philo[2] lwe9t : 2063 ms
+thinking :  from philo[1] lwe9t : 2073 ms
+tle9 the left fork from philo[2] lwe9t : 2073 ms
+tle9 the right fork from philo[2] lwe9t : 2073 ms
+sleeping :  from philo[2] lwe9t : 2073 ms
+took the left fork from philo[1] lwe9t : 2074 ms
+took the right fork from philo[1] lwe9t : 2074 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2074 ms
+eating : from philo[1] lwe9t : 2074 ms
+thinking :  from philo[2] lwe9t : 2083 ms
+tle9 the right fork from philo[1] lwe9t : 2084 ms
+tle9 the left fork from philo[1] lwe9t : 2084 ms
+sleeping :  from philo[1] lwe9t : 2084 ms
+took the right fork from philo[2] lwe9t : 2084 ms
+took the left fork from philo[2] lwe9t : 2084 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2084 ms
+eating : from philo[2] lwe9t : 2084 ms
+thinking :  from philo[1] lwe9t : 2094 ms
+tle9 the left fork from philo[2] lwe9t : 2094 ms
+tle9 the right fork from philo[2] lwe9t : 2094 ms
+sleeping :  from philo[2] lwe9t : 2094 ms
+took the left fork from philo[1] lwe9t : 2094 ms
+took the right fork from philo[1] lwe9t : 2094 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2094 ms
+eating : from philo[1] lwe9t : 2094 ms
+thinking :  from philo[2] lwe9t : 2104 ms
+tle9 the right fork from philo[1] lwe9t : 2104 ms
+tle9 the left fork from philo[1] lwe9t : 2104 ms
+sleeping :  from philo[1] lwe9t : 2104 ms
+took the right fork from philo[2] lwe9t : 2104 ms
+took the left fork from philo[2] lwe9t : 2104 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2104 ms
+eating : from philo[2] lwe9t : 2104 ms
+thinking :  from philo[1] lwe9t : 2114 ms
+tle9 the left fork from philo[2] lwe9t : 2114 ms
+tle9 the right fork from philo[2] lwe9t : 2114 ms
+sleeping :  from philo[2] lwe9t : 2114 ms
+took the left fork from philo[1] lwe9t : 2114 ms
+took the right fork from philo[1] lwe9t : 2114 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2114 ms
+eating : from philo[1] lwe9t : 2114 ms
+thinking :  from philo[2] lwe9t : 2124 ms
+tle9 the right fork from philo[1] lwe9t : 2125 ms
+tle9 the left fork from philo[1] lwe9t : 2125 ms
+sleeping :  from philo[1] lwe9t : 2125 ms
+took the right fork from philo[2] lwe9t : 2125 ms
+took the left fork from philo[2] lwe9t : 2125 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2125 ms
+eating : from philo[2] lwe9t : 2125 ms
+thinking :  from philo[1] lwe9t : 2135 ms
+tle9 the left fork from philo[2] lwe9t : 2135 ms
+tle9 the right fork from philo[2] lwe9t : 2135 ms
+sleeping :  from philo[2] lwe9t : 2135 ms
+took the left fork from philo[1] lwe9t : 2135 ms
+took the right fork from philo[1] lwe9t : 2135 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2135 ms
+eating : from philo[1] lwe9t : 2135 ms
+thinking :  from philo[2] lwe9t : 2145 ms
+tle9 the right fork from philo[1] lwe9t : 2145 ms
+tle9 the left fork from philo[1] lwe9t : 2145 ms
+sleeping :  from philo[1] lwe9t : 2145 ms
+took the right fork from philo[2] lwe9t : 2145 ms
+took the left fork from philo[2] lwe9t : 2145 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2145 ms
+eating : from philo[2] lwe9t : 2145 ms
+thinking :  from philo[1] lwe9t : 2155 ms
+tle9 the left fork from philo[2] lwe9t : 2155 ms
+tle9 the right fork from philo[2] lwe9t : 2155 ms
+sleeping :  from philo[2] lwe9t : 2155 ms
+took the left fork from philo[1] lwe9t : 2155 ms
+took the right fork from philo[1] lwe9t : 2155 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2155 ms
+eating : from philo[1] lwe9t : 2155 ms
+thinking :  from philo[2] lwe9t : 2165 ms
+tle9 the right fork from philo[1] lwe9t : 2165 ms
+tle9 the left fork from philo[1] lwe9t : 2165 ms
+sleeping :  from philo[1] lwe9t : 2165 ms
+took the right fork from philo[2] lwe9t : 2165 ms
+took the left fork from philo[2] lwe9t : 2165 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2165 ms
+eating : from philo[2] lwe9t : 2165 ms
+thinking :  from philo[1] lwe9t : 2175 ms
+tle9 the left fork from philo[2] lwe9t : 2175 ms
+tle9 the right fork from philo[2] lwe9t : 2175 ms
+sleeping :  from philo[2] lwe9t : 2175 ms
+took the left fork from philo[1] lwe9t : 2176 ms
+took the right fork from philo[1] lwe9t : 2176 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2176 ms
+eating : from philo[1] lwe9t : 2176 ms
+thinking :  from philo[2] lwe9t : 2185 ms
+tle9 the right fork from philo[1] lwe9t : 2186 ms
+tle9 the left fork from philo[1] lwe9t : 2186 ms
+sleeping :  from philo[1] lwe9t : 2186 ms
+took the right fork from philo[2] lwe9t : 2186 ms
+took the left fork from philo[2] lwe9t : 2186 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2186 ms
+eating : from philo[2] lwe9t : 2186 ms
+tle9 the left fork from philo[2] lwe9t : 2196 ms
+thinking :  from philo[1] lwe9t : 2196 ms
+tle9 the right fork from philo[2] lwe9t : 2196 ms
+sleeping :  from philo[2] lwe9t : 2196 ms
+took the left fork from philo[1] lwe9t : 2196 ms
+took the right fork from philo[1] lwe9t : 2196 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2196 ms
+eating : from philo[1] lwe9t : 2196 ms
+thinking :  from philo[2] lwe9t : 2206 ms
+tle9 the right fork from philo[1] lwe9t : 2206 ms
+tle9 the left fork from philo[1] lwe9t : 2206 ms
+sleeping :  from philo[1] lwe9t : 2206 ms
+took the right fork from philo[2] lwe9t : 2206 ms
+took the left fork from philo[2] lwe9t : 2206 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2206 ms
+eating : from philo[2] lwe9t : 2206 ms
+thinking :  from philo[1] lwe9t : 2216 ms
+tle9 the left fork from philo[2] lwe9t : 2216 ms
+tle9 the right fork from philo[2] lwe9t : 2216 ms
+sleeping :  from philo[2] lwe9t : 2216 ms
+took the left fork from philo[1] lwe9t : 2217 ms
+took the right fork from philo[1] lwe9t : 2217 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2217 ms
+eating : from philo[1] lwe9t : 2217 ms
+thinking :  from philo[2] lwe9t : 2226 ms
+tle9 the right fork from philo[1] lwe9t : 2227 ms
+tle9 the left fork from philo[1] lwe9t : 2227 ms
+sleeping :  from philo[1] lwe9t : 2227 ms
+took the right fork from philo[2] lwe9t : 2227 ms
+took the left fork from philo[2] lwe9t : 2227 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2227 ms
+eating : from philo[2] lwe9t : 2227 ms
+tle9 the left fork from philo[2] lwe9t : 2237 ms
+thinking :  from philo[1] lwe9t : 2237 ms
+tle9 the right fork from philo[2] lwe9t : 2237 ms
+sleeping :  from philo[2] lwe9t : 2237 ms
+took the left fork from philo[1] lwe9t : 2237 ms
+took the right fork from philo[1] lwe9t : 2237 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2237 ms
+eating : from philo[1] lwe9t : 2237 ms
+thinking :  from philo[2] lwe9t : 2247 ms
+tle9 the right fork from philo[1] lwe9t : 2247 ms
+tle9 the left fork from philo[1] lwe9t : 2247 ms
+sleeping :  from philo[1] lwe9t : 2247 ms
+took the right fork from philo[2] lwe9t : 2247 ms
+took the left fork from philo[2] lwe9t : 2247 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2247 ms
+eating : from philo[2] lwe9t : 2247 ms
+tle9 the left fork from philo[2] lwe9t : 2257 ms
+tle9 the right fork from philo[2] lwe9t : 2257 ms
+sleeping :  from philo[2] lwe9t : 2257 ms
+thinking :  from philo[1] lwe9t : 2257 ms
+took the left fork from philo[1] lwe9t : 2258 ms
+took the right fork from philo[1] lwe9t : 2258 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2258 ms
+eating : from philo[1] lwe9t : 2258 ms
+thinking :  from philo[2] lwe9t : 2267 ms
+tle9 the right fork from philo[1] lwe9t : 2268 ms
+tle9 the left fork from philo[1] lwe9t : 2268 ms
+sleeping :  from philo[1] lwe9t : 2268 ms
+took the right fork from philo[2] lwe9t : 2268 ms
+took the left fork from philo[2] lwe9t : 2268 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2268 ms
+eating : from philo[2] lwe9t : 2268 ms
+tle9 the left fork from philo[2] lwe9t : 2278 ms
+tle9 the right fork from philo[2] lwe9t : 2278 ms
+thinking :  from philo[1] lwe9t : 2278 ms
+sleeping :  from philo[2] lwe9t : 2278 ms
+took the left fork from philo[1] lwe9t : 2278 ms
+took the right fork from philo[1] lwe9t : 2278 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2278 ms
+eating : from philo[1] lwe9t : 2278 ms
+thinking :  from philo[2] lwe9t : 2288 ms
+tle9 the right fork from philo[1] lwe9t : 2288 ms
+tle9 the left fork from philo[1] lwe9t : 2288 ms
+took the right fork from philo[2] lwe9t : 2288 ms
+sleeping :  from philo[1] lwe9t : 2288 ms
+took the left fork from philo[2] lwe9t : 2288 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2288 ms
+eating : from philo[2] lwe9t : 2288 ms
+thinking :  from philo[1] lwe9t : 2298 ms
+tle9 the left fork from philo[2] lwe9t : 2298 ms
+tle9 the right fork from philo[2] lwe9t : 2298 ms
+sleeping :  from philo[2] lwe9t : 2298 ms
+took the left fork from philo[1] lwe9t : 2298 ms
+took the right fork from philo[1] lwe9t : 2298 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2298 ms
+eating : from philo[1] lwe9t : 2298 ms
+thinking :  from philo[2] lwe9t : 2308 ms
+tle9 the right fork from philo[1] lwe9t : 2309 ms
+tle9 the left fork from philo[1] lwe9t : 2309 ms
+took the right fork from philo[2] lwe9t : 2309 ms
+sleeping :  from philo[1] lwe9t : 2309 ms
+took the left fork from philo[2] lwe9t : 2309 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2309 ms
+eating : from philo[2] lwe9t : 2309 ms
+thinking :  from philo[1] lwe9t : 2319 ms
+tle9 the left fork from philo[2] lwe9t : 2319 ms
+tle9 the right fork from philo[2] lwe9t : 2319 ms
+sleeping :  from philo[2] lwe9t : 2319 ms
+took the left fork from philo[1] lwe9t : 2319 ms
+took the right fork from philo[1] lwe9t : 2319 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2319 ms
+eating : from philo[1] lwe9t : 2319 ms
+thinking :  from philo[2] lwe9t : 2329 ms
+tle9 the right fork from philo[1] lwe9t : 2329 ms
+tle9 the left fork from philo[1] lwe9t : 2329 ms
+sleeping :  from philo[1] lwe9t : 2329 ms
+took the right fork from philo[2] lwe9t : 2329 ms
+took the left fork from philo[2] lwe9t : 2329 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2329 ms
+eating : from philo[2] lwe9t : 2329 ms
+thinking :  from philo[1] lwe9t : 2339 ms
+tle9 the left fork from philo[2] lwe9t : 2339 ms
+tle9 the right fork from philo[2] lwe9t : 2339 ms
+sleeping :  from philo[2] lwe9t : 2339 ms
+took the left fork from philo[1] lwe9t : 2339 ms
+took the right fork from philo[1] lwe9t : 2339 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2339 ms
+eating : from philo[1] lwe9t : 2339 ms
+thinking :  from philo[2] lwe9t : 2349 ms
+tle9 the right fork from philo[1] lwe9t : 2349 ms
+tle9 the left fork from philo[1] lwe9t : 2349 ms
+sleeping :  from philo[1] lwe9t : 2349 ms
+took the right fork from philo[2] lwe9t : 2349 ms
+took the left fork from philo[2] lwe9t : 2349 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2349 ms
+eating : from philo[2] lwe9t : 2349 ms
+thinking :  from philo[1] lwe9t : 2359 ms
+tle9 the left fork from philo[2] lwe9t : 2359 ms
+tle9 the right fork from philo[2] lwe9t : 2359 ms
+sleeping :  from philo[2] lwe9t : 2359 ms
+took the left fork from philo[1] lwe9t : 2360 ms
+took the right fork from philo[1] lwe9t : 2360 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2360 ms
+eating : from philo[1] lwe9t : 2360 ms
+thinking :  from philo[2] lwe9t : 2369 ms
+tle9 the right fork from philo[1] lwe9t : 2370 ms
+tle9 the left fork from philo[1] lwe9t : 2370 ms
+sleeping :  from philo[1] lwe9t : 2370 ms
+took the right fork from philo[2] lwe9t : 2370 ms
+took the left fork from philo[2] lwe9t : 2370 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2370 ms
+eating : from philo[2] lwe9t : 2370 ms
+tle9 the left fork from philo[2] lwe9t : 2380 ms
+tle9 the right fork from philo[2] lwe9t : 2380 ms
+sleeping :  from philo[2] lwe9t : 2380 ms
+thinking :  from philo[1] lwe9t : 2380 ms
+took the left fork from philo[1] lwe9t : 2380 ms
+took the right fork from philo[1] lwe9t : 2380 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2380 ms
+eating : from philo[1] lwe9t : 2380 ms
+thinking :  from philo[2] lwe9t : 2390 ms
+tle9 the right fork from philo[1] lwe9t : 2390 ms
+tle9 the left fork from philo[1] lwe9t : 2390 ms
+took the right fork from philo[2] lwe9t : 2390 ms
+took the left fork from philo[2] lwe9t : 2390 ms
+sleeping :  from philo[1] lwe9t : 2390 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2390 ms
+eating : from philo[2] lwe9t : 2390 ms
+tle9 the left fork from philo[2] lwe9t : 2400 ms
+tle9 the right fork from philo[2] lwe9t : 2400 ms
+sleeping :  from philo[2] lwe9t : 2400 ms
+thinking :  from philo[1] lwe9t : 2400 ms
+took the left fork from philo[1] lwe9t : 2401 ms
+took the right fork from philo[1] lwe9t : 2401 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2401 ms
+eating : from philo[1] lwe9t : 2401 ms
+thinking :  from philo[2] lwe9t : 2410 ms
+tle9 the right fork from philo[1] lwe9t : 2411 ms
+tle9 the left fork from philo[1] lwe9t : 2411 ms
+sleeping :  from philo[1] lwe9t : 2411 ms
+took the right fork from philo[2] lwe9t : 2411 ms
+took the left fork from philo[2] lwe9t : 2411 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2411 ms
+eating : from philo[2] lwe9t : 2411 ms
+thinking :  from philo[1] lwe9t : 2421 ms
+tle9 the left fork from philo[2] lwe9t : 2421 ms
+tle9 the right fork from philo[2] lwe9t : 2421 ms
+sleeping :  from philo[2] lwe9t : 2421 ms
+took the left fork from philo[1] lwe9t : 2421 ms
+took the right fork from philo[1] lwe9t : 2421 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2421 ms
+eating : from philo[1] lwe9t : 2421 ms
+thinking :  from philo[2] lwe9t : 2431 ms
+tle9 the right fork from philo[1] lwe9t : 2431 ms
+tle9 the left fork from philo[1] lwe9t : 2431 ms
+took the right fork from philo[2] lwe9t : 2431 ms
+took the left fork from philo[2] lwe9t : 2431 ms
+sleeping :  from philo[1] lwe9t : 2431 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2431 ms
+eating : from philo[2] lwe9t : 2431 ms
+thinking :  from philo[1] lwe9t : 2441 ms
+tle9 the left fork from philo[2] lwe9t : 2441 ms
+tle9 the right fork from philo[2] lwe9t : 2441 ms
+sleeping :  from philo[2] lwe9t : 2441 ms
+took the left fork from philo[1] lwe9t : 2441 ms
+took the right fork from philo[1] lwe9t : 2441 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2442 ms
+eating : from philo[1] lwe9t : 2442 ms
+thinking :  from philo[2] lwe9t : 2451 ms
+tle9 the right fork from philo[1] lwe9t : 2452 ms
+tle9 the left fork from philo[1] lwe9t : 2452 ms
+sleeping :  from philo[1] lwe9t : 2452 ms
+took the right fork from philo[2] lwe9t : 2452 ms
+took the left fork from philo[2] lwe9t : 2452 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2452 ms
+eating : from philo[2] lwe9t : 2452 ms
+tle9 the left fork from philo[2] lwe9t : 2462 ms
+tle9 the right fork from philo[2] lwe9t : 2462 ms
+sleeping :  from philo[2] lwe9t : 2462 ms
+thinking :  from philo[1] lwe9t : 2462 ms
+took the left fork from philo[1] lwe9t : 2462 ms
+took the right fork from philo[1] lwe9t : 2462 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2462 ms
+eating : from philo[1] lwe9t : 2462 ms
+thinking :  from philo[2] lwe9t : 2472 ms
+tle9 the right fork from philo[1] lwe9t : 2472 ms
+tle9 the left fork from philo[1] lwe9t : 2472 ms
+sleeping :  from philo[1] lwe9t : 2472 ms
+took the right fork from philo[2] lwe9t : 2472 ms
+took the left fork from philo[2] lwe9t : 2472 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2472 ms
+eating : from philo[2] lwe9t : 2472 ms
+tle9 the left fork from philo[2] lwe9t : 2482 ms
+tle9 the right fork from philo[2] lwe9t : 2482 ms
+thinking :  from philo[1] lwe9t : 2482 ms
+sleeping :  from philo[2] lwe9t : 2482 ms
+took the left fork from philo[1] lwe9t : 2482 ms
+took the right fork from philo[1] lwe9t : 2482 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2482 ms
+eating : from philo[1] lwe9t : 2482 ms
+thinking :  from philo[2] lwe9t : 2492 ms
+tle9 the right fork from philo[1] lwe9t : 2493 ms
+tle9 the left fork from philo[1] lwe9t : 2493 ms
+sleeping :  from philo[1] lwe9t : 2493 ms
+took the right fork from philo[2] lwe9t : 2493 ms
+took the left fork from philo[2] lwe9t : 2493 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2493 ms
+eating : from philo[2] lwe9t : 2493 ms
+thinking :  from philo[1] lwe9t : 2503 ms
+tle9 the left fork from philo[2] lwe9t : 2503 ms
+tle9 the right fork from philo[2] lwe9t : 2503 ms
+sleeping :  from philo[2] lwe9t : 2503 ms
+took the left fork from philo[1] lwe9t : 2503 ms
+took the right fork from philo[1] lwe9t : 2503 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2503 ms
+eating : from philo[1] lwe9t : 2503 ms
+thinking :  from philo[2] lwe9t : 2513 ms
+tle9 the right fork from philo[1] lwe9t : 2513 ms
+tle9 the left fork from philo[1] lwe9t : 2513 ms
+sleeping :  from philo[1] lwe9t : 2513 ms
+took the right fork from philo[2] lwe9t : 2513 ms
+took the left fork from philo[2] lwe9t : 2513 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2513 ms
+eating : from philo[2] lwe9t : 2513 ms
+thinking :  from philo[1] lwe9t : 2523 ms
+tle9 the left fork from philo[2] lwe9t : 2523 ms
+tle9 the right fork from philo[2] lwe9t : 2523 ms
+sleeping :  from philo[2] lwe9t : 2523 ms
+took the left fork from philo[1] lwe9t : 2523 ms
+took the right fork from philo[1] lwe9t : 2523 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2523 ms
+eating : from philo[1] lwe9t : 2523 ms
+thinking :  from philo[2] lwe9t : 2533 ms
+tle9 the right fork from philo[1] lwe9t : 2533 ms
+tle9 the left fork from philo[1] lwe9t : 2533 ms
+sleeping :  from philo[1] lwe9t : 2533 ms
+took the right fork from philo[2] lwe9t : 2533 ms
+took the left fork from philo[2] lwe9t : 2533 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2533 ms
+eating : from philo[2] lwe9t : 2533 ms
+thinking :  from philo[1] lwe9t : 2543 ms
+tle9 the left fork from philo[2] lwe9t : 2543 ms
+tle9 the right fork from philo[2] lwe9t : 2543 ms
+sleeping :  from philo[2] lwe9t : 2543 ms
+took the left fork from philo[1] lwe9t : 2544 ms
+took the right fork from philo[1] lwe9t : 2544 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2544 ms
+eating : from philo[1] lwe9t : 2544 ms
+thinking :  from philo[2] lwe9t : 2553 ms
+tle9 the right fork from philo[1] lwe9t : 2554 ms
+tle9 the left fork from philo[1] lwe9t : 2554 ms
+sleeping :  from philo[1] lwe9t : 2554 ms
+took the right fork from philo[2] lwe9t : 2554 ms
+took the left fork from philo[2] lwe9t : 2554 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2554 ms
+eating : from philo[2] lwe9t : 2554 ms
+thinking :  from philo[1] lwe9t : 2564 ms
+tle9 the left fork from philo[2] lwe9t : 2564 ms
+tle9 the right fork from philo[2] lwe9t : 2564 ms
+sleeping :  from philo[2] lwe9t : 2564 ms
+took the left fork from philo[1] lwe9t : 2564 ms
+took the right fork from philo[1] lwe9t : 2564 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2564 ms
+eating : from philo[1] lwe9t : 2564 ms
+thinking :  from philo[2] lwe9t : 2574 ms
+tle9 the right fork from philo[1] lwe9t : 2574 ms
+tle9 the left fork from philo[1] lwe9t : 2574 ms
+sleeping :  from philo[1] lwe9t : 2574 ms
+took the right fork from philo[2] lwe9t : 2574 ms
+took the left fork from philo[2] lwe9t : 2574 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2574 ms
+eating : from philo[2] lwe9t : 2574 ms
+thinking :  from philo[1] lwe9t : 2584 ms
+tle9 the left fork from philo[2] lwe9t : 2584 ms
+tle9 the right fork from philo[2] lwe9t : 2584 ms
+sleeping :  from philo[2] lwe9t : 2584 ms
+took the left fork from philo[1] lwe9t : 2585 ms
+took the right fork from philo[1] lwe9t : 2585 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2585 ms
+eating : from philo[1] lwe9t : 2585 ms
+thinking :  from philo[2] lwe9t : 2594 ms
+tle9 the right fork from philo[1] lwe9t : 2595 ms
+tle9 the left fork from philo[1] lwe9t : 2595 ms
+sleeping :  from philo[1] lwe9t : 2595 ms
+took the right fork from philo[2] lwe9t : 2595 ms
+took the left fork from philo[2] lwe9t : 2595 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2595 ms
+eating : from philo[2] lwe9t : 2595 ms
+tle9 the left fork from philo[2] lwe9t : 2605 ms
+tle9 the right fork from philo[2] lwe9t : 2605 ms
+sleeping :  from philo[2] lwe9t : 2605 ms
+thinking :  from philo[1] lwe9t : 2605 ms
+took the left fork from philo[1] lwe9t : 2605 ms
+took the right fork from philo[1] lwe9t : 2605 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2605 ms
+eating : from philo[1] lwe9t : 2605 ms
+thinking :  from philo[2] lwe9t : 2615 ms
+tle9 the right fork from philo[1] lwe9t : 2615 ms
+tle9 the left fork from philo[1] lwe9t : 2615 ms
+sleeping :  from philo[1] lwe9t : 2615 ms
+took the right fork from philo[2] lwe9t : 2615 ms
+took the left fork from philo[2] lwe9t : 2615 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2615 ms
+eating : from philo[2] lwe9t : 2615 ms
+tle9 the left fork from philo[2] lwe9t : 2625 ms
+thinking :  from philo[1] lwe9t : 2625 ms
+tle9 the right fork from philo[2] lwe9t : 2625 ms
+sleeping :  from philo[2] lwe9t : 2625 ms
+took the left fork from philo[1] lwe9t : 2625 ms
+took the right fork from philo[1] lwe9t : 2626 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2626 ms
+eating : from philo[1] lwe9t : 2626 ms
+thinking :  from philo[2] lwe9t : 2635 ms
+tle9 the right fork from philo[1] lwe9t : 2636 ms
+tle9 the left fork from philo[1] lwe9t : 2636 ms
+sleeping :  from philo[1] lwe9t : 2636 ms
+took the right fork from philo[2] lwe9t : 2636 ms
+took the left fork from philo[2] lwe9t : 2636 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2636 ms
+eating : from philo[2] lwe9t : 2636 ms
+thinking :  from philo[1] lwe9t : 2646 ms
+tle9 the left fork from philo[2] lwe9t : 2646 ms
+tle9 the right fork from philo[2] lwe9t : 2646 ms
+sleeping :  from philo[2] lwe9t : 2646 ms
+took the left fork from philo[1] lwe9t : 2646 ms
+took the right fork from philo[1] lwe9t : 2646 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2646 ms
+eating : from philo[1] lwe9t : 2646 ms
+thinking :  from philo[2] lwe9t : 2656 ms
+tle9 the right fork from philo[1] lwe9t : 2656 ms
+tle9 the left fork from philo[1] lwe9t : 2656 ms
+sleeping :  from philo[1] lwe9t : 2656 ms
+took the right fork from philo[2] lwe9t : 2656 ms
+took the left fork from philo[2] lwe9t : 2656 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2656 ms
+eating : from philo[2] lwe9t : 2656 ms
+thinking :  from philo[1] lwe9t : 2666 ms
+tle9 the left fork from philo[2] lwe9t : 2666 ms
+tle9 the right fork from philo[2] lwe9t : 2666 ms
+sleeping :  from philo[2] lwe9t : 2666 ms
+took the left fork from philo[1] lwe9t : 2666 ms
+took the right fork from philo[1] lwe9t : 2666 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2666 ms
+eating : from philo[1] lwe9t : 2666 ms
+thinking :  from philo[2] lwe9t : 2676 ms
+tle9 the right fork from philo[1] lwe9t : 2676 ms
+tle9 the left fork from philo[1] lwe9t : 2676 ms
+sleeping :  from philo[1] lwe9t : 2676 ms
+took the right fork from philo[2] lwe9t : 2676 ms
+took the left fork from philo[2] lwe9t : 2676 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2676 ms
+eating : from philo[2] lwe9t : 2676 ms
+thinking :  from philo[1] lwe9t : 2686 ms
+tle9 the left fork from philo[2] lwe9t : 2686 ms
+tle9 the right fork from philo[2] lwe9t : 2686 ms
+sleeping :  from philo[2] lwe9t : 2686 ms
+took the left fork from philo[1] lwe9t : 2687 ms
+took the right fork from philo[1] lwe9t : 2687 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2687 ms
+eating : from philo[1] lwe9t : 2687 ms
+thinking :  from philo[2] lwe9t : 2696 ms
+tle9 the right fork from philo[1] lwe9t : 2697 ms
+tle9 the left fork from philo[1] lwe9t : 2697 ms
+sleeping :  from philo[1] lwe9t : 2697 ms
+took the right fork from philo[2] lwe9t : 2697 ms
+took the left fork from philo[2] lwe9t : 2697 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2697 ms
+eating : from philo[2] lwe9t : 2697 ms
+thinking :  from philo[1] lwe9t : 2707 ms
+tle9 the left fork from philo[2] lwe9t : 2707 ms
+tle9 the right fork from philo[2] lwe9t : 2707 ms
+sleeping :  from philo[2] lwe9t : 2707 ms
+took the left fork from philo[1] lwe9t : 2707 ms
+took the right fork from philo[1] lwe9t : 2707 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2707 ms
+eating : from philo[1] lwe9t : 2707 ms
+thinking :  from philo[2] lwe9t : 2717 ms
+tle9 the right fork from philo[1] lwe9t : 2717 ms
+tle9 the left fork from philo[1] lwe9t : 2717 ms
+sleeping :  from philo[1] lwe9t : 2717 ms
+took the right fork from philo[2] lwe9t : 2717 ms
+took the left fork from philo[2] lwe9t : 2717 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2717 ms
+eating : from philo[2] lwe9t : 2717 ms
+tle9 the left fork from philo[2] lwe9t : 2727 ms
+tle9 the right fork from philo[2] lwe9t : 2727 ms
+sleeping :  from philo[2] lwe9t : 2727 ms
+thinking :  from philo[1] lwe9t : 2727 ms
+took the left fork from philo[1] lwe9t : 2728 ms
+took the right fork from philo[1] lwe9t : 2728 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2728 ms
+eating : from philo[1] lwe9t : 2728 ms
+thinking :  from philo[2] lwe9t : 2737 ms
+tle9 the right fork from philo[1] lwe9t : 2738 ms
+tle9 the left fork from philo[1] lwe9t : 2738 ms
+sleeping :  from philo[1] lwe9t : 2738 ms
+took the right fork from philo[2] lwe9t : 2738 ms
+took the left fork from philo[2] lwe9t : 2738 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2738 ms
+eating : from philo[2] lwe9t : 2738 ms
+thinking :  from philo[1] lwe9t : 2748 ms
+tle9 the left fork from philo[2] lwe9t : 2748 ms
+tle9 the right fork from philo[2] lwe9t : 2748 ms
+sleeping :  from philo[2] lwe9t : 2748 ms
+took the left fork from philo[1] lwe9t : 2748 ms
+took the right fork from philo[1] lwe9t : 2748 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2748 ms
+eating : from philo[1] lwe9t : 2748 ms
+thinking :  from philo[2] lwe9t : 2758 ms
+tle9 the right fork from philo[1] lwe9t : 2758 ms
+tle9 the left fork from philo[1] lwe9t : 2758 ms
+sleeping :  from philo[1] lwe9t : 2758 ms
+took the right fork from philo[2] lwe9t : 2758 ms
+took the left fork from philo[2] lwe9t : 2758 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2758 ms
+eating : from philo[2] lwe9t : 2758 ms
+thinking :  from philo[1] lwe9t : 2768 ms
+tle9 the left fork from philo[2] lwe9t : 2768 ms
+tle9 the right fork from philo[2] lwe9t : 2768 ms
+sleeping :  from philo[2] lwe9t : 2768 ms
+took the left fork from philo[1] lwe9t : 2769 ms
+took the right fork from philo[1] lwe9t : 2769 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2769 ms
+eating : from philo[1] lwe9t : 2769 ms
+thinking :  from philo[2] lwe9t : 2778 ms
+tle9 the right fork from philo[1] lwe9t : 2779 ms
+tle9 the left fork from philo[1] lwe9t : 2779 ms
+sleeping :  from philo[1] lwe9t : 2779 ms
+took the right fork from philo[2] lwe9t : 2779 ms
+took the left fork from philo[2] lwe9t : 2779 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2779 ms
+eating : from philo[2] lwe9t : 2779 ms
+thinking :  from philo[1] lwe9t : 2789 ms
+tle9 the left fork from philo[2] lwe9t : 2789 ms
+tle9 the right fork from philo[2] lwe9t : 2789 ms
+sleeping :  from philo[2] lwe9t : 2789 ms
+took the left fork from philo[1] lwe9t : 2789 ms
+took the right fork from philo[1] lwe9t : 2789 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2789 ms
+eating : from philo[1] lwe9t : 2789 ms
+thinking :  from philo[2] lwe9t : 2799 ms
+tle9 the right fork from philo[1] lwe9t : 2799 ms
+tle9 the left fork from philo[1] lwe9t : 2799 ms
+sleeping :  from philo[1] lwe9t : 2799 ms
+took the right fork from philo[2] lwe9t : 2799 ms
+took the left fork from philo[2] lwe9t : 2799 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2799 ms
+eating : from philo[2] lwe9t : 2799 ms
+thinking :  from philo[1] lwe9t : 2809 ms
+tle9 the left fork from philo[2] lwe9t : 2809 ms
+tle9 the right fork from philo[2] lwe9t : 2809 ms
+sleeping :  from philo[2] lwe9t : 2809 ms
+took the left fork from philo[1] lwe9t : 2809 ms
+took the right fork from philo[1] lwe9t : 2809 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2809 ms
+eating : from philo[1] lwe9t : 2809 ms
+thinking :  from philo[2] lwe9t : 2819 ms
+tle9 the right fork from philo[1] lwe9t : 2819 ms
+tle9 the left fork from philo[1] lwe9t : 2819 ms
+took the right fork from philo[2] lwe9t : 2819 ms
+sleeping :  from philo[1] lwe9t : 2819 ms
+took the left fork from philo[2] lwe9t : 2819 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2819 ms
+eating : from philo[2] lwe9t : 2819 ms
+thinking :  from philo[1] lwe9t : 2829 ms
+tle9 the left fork from philo[2] lwe9t : 2830 ms
+tle9 the right fork from philo[2] lwe9t : 2830 ms
+sleeping :  from philo[2] lwe9t : 2830 ms
+took the left fork from philo[1] lwe9t : 2830 ms
+took the right fork from philo[1] lwe9t : 2830 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2830 ms
+eating : from philo[1] lwe9t : 2830 ms
+thinking :  from philo[2] lwe9t : 2840 ms
+tle9 the right fork from philo[1] lwe9t : 2840 ms
+tle9 the left fork from philo[1] lwe9t : 2840 ms
+sleeping :  from philo[1] lwe9t : 2840 ms
+took the right fork from philo[2] lwe9t : 2840 ms
+took the left fork from philo[2] lwe9t : 2840 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2840 ms
+eating : from philo[2] lwe9t : 2840 ms
+thinking :  from philo[1] lwe9t : 2850 ms
+tle9 the left fork from philo[2] lwe9t : 2850 ms
+tle9 the right fork from philo[2] lwe9t : 2850 ms
+sleeping :  from philo[2] lwe9t : 2850 ms
+took the left fork from philo[1] lwe9t : 2850 ms
+took the right fork from philo[1] lwe9t : 2850 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2850 ms
+eating : from philo[1] lwe9t : 2850 ms
+thinking :  from philo[2] lwe9t : 2860 ms
+tle9 the right fork from philo[1] lwe9t : 2860 ms
+tle9 the left fork from philo[1] lwe9t : 2860 ms
+sleeping :  from philo[1] lwe9t : 2860 ms
+took the right fork from philo[2] lwe9t : 2860 ms
+took the left fork from philo[2] lwe9t : 2860 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2860 ms
+eating : from philo[2] lwe9t : 2860 ms
+thinking :  from philo[1] lwe9t : 2870 ms
+tle9 the left fork from philo[2] lwe9t : 2870 ms
+tle9 the right fork from philo[2] lwe9t : 2870 ms
+sleeping :  from philo[2] lwe9t : 2870 ms
+took the left fork from philo[1] lwe9t : 2871 ms
+took the right fork from philo[1] lwe9t : 2871 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2871 ms
+eating : from philo[1] lwe9t : 2871 ms
+thinking :  from philo[2] lwe9t : 2880 ms
+tle9 the right fork from philo[1] lwe9t : 2881 ms
+tle9 the left fork from philo[1] lwe9t : 2881 ms
+sleeping :  from philo[1] lwe9t : 2881 ms
+took the right fork from philo[2] lwe9t : 2881 ms
+took the left fork from philo[2] lwe9t : 2881 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2881 ms
+eating : from philo[2] lwe9t : 2881 ms
+tle9 the left fork from philo[2] lwe9t : 2891 ms
+tle9 the right fork from philo[2] lwe9t : 2891 ms
+sleeping :  from philo[2] lwe9t : 2891 ms
+thinking :  from philo[1] lwe9t : 2891 ms
+took the left fork from philo[1] lwe9t : 2891 ms
+took the right fork from philo[1] lwe9t : 2891 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2891 ms
+eating : from philo[1] lwe9t : 2891 ms
+thinking :  from philo[2] lwe9t : 2901 ms
+tle9 the right fork from philo[1] lwe9t : 2901 ms
+tle9 the left fork from philo[1] lwe9t : 2901 ms
+sleeping :  from philo[1] lwe9t : 2901 ms
+took the right fork from philo[2] lwe9t : 2901 ms
+took the left fork from philo[2] lwe9t : 2901 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2901 ms
+eating : from philo[2] lwe9t : 2901 ms
+thinking :  from philo[1] lwe9t : 2911 ms
+tle9 the left fork from philo[2] lwe9t : 2911 ms
+tle9 the right fork from philo[2] lwe9t : 2911 ms
+sleeping :  from philo[2] lwe9t : 2911 ms
+took the left fork from philo[1] lwe9t : 2912 ms
+took the right fork from philo[1] lwe9t : 2912 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2912 ms
+eating : from philo[1] lwe9t : 2912 ms
+thinking :  from philo[2] lwe9t : 2921 ms
+tle9 the right fork from philo[1] lwe9t : 2922 ms
+tle9 the left fork from philo[1] lwe9t : 2922 ms
+sleeping :  from philo[1] lwe9t : 2922 ms
+took the right fork from philo[2] lwe9t : 2922 ms
+took the left fork from philo[2] lwe9t : 2922 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2922 ms
+eating : from philo[2] lwe9t : 2922 ms
+thinking :  from philo[1] lwe9t : 2932 ms
+tle9 the left fork from philo[2] lwe9t : 2932 ms
+tle9 the right fork from philo[2] lwe9t : 2932 ms
+sleeping :  from philo[2] lwe9t : 2932 ms
+took the left fork from philo[1] lwe9t : 2932 ms
+took the right fork from philo[1] lwe9t : 2932 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2932 ms
+eating : from philo[1] lwe9t : 2932 ms
+thinking :  from philo[2] lwe9t : 2942 ms
+tle9 the right fork from philo[1] lwe9t : 2942 ms
+tle9 the left fork from philo[1] lwe9t : 2942 ms
+sleeping :  from philo[1] lwe9t : 2942 ms
+took the right fork from philo[2] lwe9t : 2942 ms
+took the left fork from philo[2] lwe9t : 2942 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2942 ms
+eating : from philo[2] lwe9t : 2942 ms
+thinking :  from philo[1] lwe9t : 2952 ms
+tle9 the left fork from philo[2] lwe9t : 2952 ms
+tle9 the right fork from philo[2] lwe9t : 2952 ms
+sleeping :  from philo[2] lwe9t : 2952 ms
+took the left fork from philo[1] lwe9t : 2953 ms
+took the right fork from philo[1] lwe9t : 2953 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2953 ms
+eating : from philo[1] lwe9t : 2953 ms
+thinking :  from philo[2] lwe9t : 2962 ms
+tle9 the right fork from philo[1] lwe9t : 2963 ms
+tle9 the left fork from philo[1] lwe9t : 2963 ms
+sleeping :  from philo[1] lwe9t : 2963 ms
+took the right fork from philo[2] lwe9t : 2963 ms
+took the left fork from philo[2] lwe9t : 2963 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2963 ms
+eating : from philo[2] lwe9t : 2963 ms
+thinking :  from philo[1] lwe9t : 2973 ms
+tle9 the left fork from philo[2] lwe9t : 2973 ms
+tle9 the right fork from philo[2] lwe9t : 2973 ms
+sleeping :  from philo[2] lwe9t : 2973 ms
+took the left fork from philo[1] lwe9t : 2973 ms
+took the right fork from philo[1] lwe9t : 2973 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2973 ms
+eating : from philo[1] lwe9t : 2973 ms
+thinking :  from philo[2] lwe9t : 2983 ms
+tle9 the right fork from philo[1] lwe9t : 2983 ms
+tle9 the left fork from philo[1] lwe9t : 2983 ms
+sleeping :  from philo[1] lwe9t : 2983 ms
+took the right fork from philo[2] lwe9t : 2983 ms
+took the left fork from philo[2] lwe9t : 2983 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 2983 ms
+eating : from philo[2] lwe9t : 2983 ms
+thinking :  from philo[1] lwe9t : 2993 ms
+tle9 the left fork from philo[2] lwe9t : 2993 ms
+tle9 the right fork from philo[2] lwe9t : 2993 ms
+sleeping :  from philo[2] lwe9t : 2993 ms
+took the left fork from philo[1] lwe9t : 2993 ms
+took the right fork from philo[1] lwe9t : 2993 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 2993 ms
+eating : from philo[1] lwe9t : 2993 ms
+thinking :  from philo[2] lwe9t : 3002 ms
+tle9 the right fork from philo[1] lwe9t : 3003 ms
+tle9 the left fork from philo[1] lwe9t : 3003 ms
+sleeping :  from philo[1] lwe9t : 3003 ms
+took the right fork from philo[2] lwe9t : 3003 ms
+took the left fork from philo[2] lwe9t : 3003 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 3003 ms
+eating : from philo[2] lwe9t : 3003 ms
+thinking :  from philo[1] lwe9t : 3013 ms
+tle9 the left fork from philo[2] lwe9t : 3013 ms
+tle9 the right fork from philo[2] lwe9t : 3013 ms
+sleeping :  from philo[2] lwe9t : 3013 ms
+took the left fork from philo[1] lwe9t : 3013 ms
+took the right fork from philo[1] lwe9t : 3013 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 3013 ms
+eating : from philo[1] lwe9t : 3013 ms
+thinking :  from philo[2] lwe9t : 3023 ms
+tle9 the right fork from philo[1] lwe9t : 3023 ms
+tle9 the left fork from philo[1] lwe9t : 3023 ms
+sleeping :  from philo[1] lwe9t : 3023 ms
+took the right fork from philo[2] lwe9t : 3023 ms
+took the left fork from philo[2] lwe9t : 3023 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 3023 ms
+eating : from philo[2] lwe9t : 3023 ms
+thinking :  from philo[1] lwe9t : 3033 ms
+tle9 the left fork from philo[2] lwe9t : 3033 ms
+tle9 the right fork from philo[2] lwe9t : 3033 ms
+sleeping :  from philo[2] lwe9t : 3033 ms
+took the left fork from philo[1] lwe9t : 3033 ms
+took the right fork from philo[1] lwe9t : 3033 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 3033 ms
+eating : from philo[1] lwe9t : 3033 ms
+thinking :  from philo[2] lwe9t : 3043 ms
+tle9 the right fork from philo[1] lwe9t : 3043 ms
+tle9 the left fork from philo[1] lwe9t : 3043 ms
+sleeping :  from philo[1] lwe9t : 3043 ms
+took the right fork from philo[2] lwe9t : 3043 ms
+took the left fork from philo[2] lwe9t : 3043 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 3043 ms
+eating : from philo[2] lwe9t : 3043 ms
+thinking :  from philo[1] lwe9t : 3053 ms
+tle9 the left fork from philo[2] lwe9t : 3053 ms
+tle9 the right fork from philo[2] lwe9t : 3053 ms
+sleeping :  from philo[2] lwe9t : 3053 ms
+took the left fork from philo[1] lwe9t : 3054 ms
+took the right fork from philo[1] lwe9t : 3054 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 3054 ms
+eating : from philo[1] lwe9t : 3054 ms
+thinking :  from philo[2] lwe9t : 3063 ms
+tle9 the right fork from philo[1] lwe9t : 3064 ms
+tle9 the left fork from philo[1] lwe9t : 3064 ms
+sleeping :  from philo[1] lwe9t : 3064 ms
+took the right fork from philo[2] lwe9t : 3064 ms
+took the left fork from philo[2] lwe9t : 3064 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 3064 ms
+eating : from philo[2] lwe9t : 3064 ms
+thinking :  from philo[1] lwe9t : 3074 ms
+tle9 the left fork from philo[2] lwe9t : 3074 ms
+tle9 the right fork from philo[2] lwe9t : 3074 ms
+sleeping :  from philo[2] lwe9t : 3074 ms
+took the left fork from philo[1] lwe9t : 3074 ms
+took the right fork from philo[1] lwe9t : 3074 ms
+tle9t dead_lock_mutex philo  from philo[1] lwe9t : 3074 ms
+eating : from philo[1] lwe9t : 3074 ms
+thinking :  from philo[2] lwe9t : 3084 ms
+tle9 the right fork from philo[1] lwe9t : 3084 ms
+tle9 the left fork from philo[1] lwe9t : 3084 ms
+sleeping :  from philo[1] lwe9t : 3084 ms
+took the right fork from philo[2] lwe9t : 3084 ms
+took the left fork from philo[2] lwe9t : 3084 ms
+tle9t dead_lock_mutex philo  from philo[2] lwe9t : 3084 ms
+eating : from philo[2] lwe9t : 3084 ms
+tle9 the left fork from philo[2] lwe9t : 3094 ms
+tle9 the right fork fr

@@ -45,6 +45,7 @@ int main(int ac, char **av)
     int num_philos = called_philo->public_philo->total_philo;
     pthread_t thread_id[num_philos];
     int i = 0;
+    gettimeofday(&called_philo->public_philo->start_time , NULL);
     while (i < num_philos)
     {
         pthread_create(&thread_id[i], NULL, philo_sim, called_philo + i);
