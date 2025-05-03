@@ -14,7 +14,7 @@ void *ft_monitor_die(void *philos)
         {
             if ((philo + i)->started && get_time_between_2_times((philo + i)->last_meal) >= philo->public_philo->time_die)
             {
-                print_passed_time_in_ms(philo->public_philo->start_time, "chi phaylassof mat passed time =  ", ((philo + i)->id), NULL);
+                print_passed_time_in_ms(philo->public_philo->start_time, "died ", ((philo + i)->id), NULL);
                 philo->public_philo->end_sim = 1;
                 pthread_mutex_unlock(philo->public_philo->dead_lock);
                 return (NULL);
