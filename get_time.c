@@ -4,7 +4,6 @@ int	print_passed_time_in_ms_protected(struct timeval start_time,
 		char *operation, int id, t_private_philo *philo)
 {
 	int	execute;
-
 	pthread_mutex_lock(philo->public_philo->dead_lock);
 	execute = !philo->public_philo->end_sim;
 	pthread_mutex_unlock(philo->public_philo->dead_lock);
@@ -20,6 +19,7 @@ void	print_passed_time_in_ms(struct timeval start_time, char *operation,
 	long			microseconds;
 	long			total_milliseconds;
 
+	philo++;
 	gettimeofday(&end_time, NULL);
 	seconds = end_time.tv_sec - start_time.tv_sec;
 	microseconds = end_time.tv_usec - start_time.tv_usec;

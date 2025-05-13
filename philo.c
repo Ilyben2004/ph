@@ -36,6 +36,26 @@ void	test_data(t_private_philo *called_philo)
 	}
 }
 
+int clean_it_all(t_private_philo *private_p)
+{
+	int i;
+	t_public_philo *public_p;
+
+	public_p = private_p->public_philo;
+	i = 0;
+	free(public_p->dead_lock);
+	while (i < public_p->total_philo)
+	{
+		free((private_p + i)->left_fork);
+		free((private_p + i)->eat_lock);
+		free((private_p + i)->started_lock);
+		i++;
+	}
+	free(public_p);
+	free(private_p);
+	return (0);
+}
+
 //
 
 int	main(int ac, char **av)
@@ -43,7 +63,7 @@ int	main(int ac, char **av)
 	t_private_philo *called_philo;
 
 	if (parser_check(ac, av) == 0)
-		return (printf("args error\n"), 1);
+		return (1);
 	if (!init_called_philo(&called_philo, ac, av))
 		return (0);
 	int num_philos = called_philo->public_philo->total_philo;
@@ -57,7 +77,6 @@ int	main(int ac, char **av)
 	}
 
 	pthread_t monitor;
-	pthread_t monitor_eat;
 	pthread_create(&monitor, NULL, ft_monitor_die, called_philo);
 	i = 0;
 	while (i < num_philos)
@@ -66,4 +85,5 @@ int	main(int ac, char **av)
 		i++;
 	}
 	pthread_join(monitor, NULL);
+	return (clean_it_all(called_philo));
 }

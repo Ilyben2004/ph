@@ -7,10 +7,10 @@ t_public_philo	*init_public_philo(t_public_philo **init_public_philo, int ac,
 	if (!(*init_public_philo))
 		return (NULL);
 	(void)ac;
-	(*init_public_philo)->total_philo = atoi(av[1]);
-	(*init_public_philo)->time_die = atoi(av[2]);
-	(*init_public_philo)->time_eat = atoi(av[3]);
-	(*init_public_philo)->time_sleep = atoi(av[4]);
+	(*init_public_philo)->total_philo = ft_atoi(av[1]);
+	(*init_public_philo)->time_die = ft_atoi(av[2]);
+	(*init_public_philo)->time_eat = ft_atoi(av[3]);
+	(*init_public_philo)->time_sleep = ft_atoi(av[4]);
 	if (ac == 5)
 	{
 		(*init_public_philo)->how_many_eats = -1;
@@ -18,7 +18,7 @@ t_public_philo	*init_public_philo(t_public_philo **init_public_philo, int ac,
 	}
 	else if (ac == 6)
 	{
-		(*init_public_philo)->how_many_eats = atoi(av[5]);
+		(*init_public_philo)->how_many_eats = ft_atoi(av[5]);
 		(*init_public_philo)->optional_arg = 1;
 	}
 	(*init_public_philo)->dead_lock = malloc(sizeof(pthread_mutex_t));
@@ -51,8 +51,6 @@ static void	init_all_philos(t_private_philo *all_philos,
 	i = 0;
 	while (i < philos_size)
 	{
-		// total 5
-		//  I = 0 ->  philo[0]->right_fork = (philo + 2 % 5)
 		(all_philos + i)->right_fork = (all_philos + ((i + 1)
 					% all_philos->public_philo->total_philo))->left_fork;
 		i++;

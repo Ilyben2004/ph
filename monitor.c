@@ -45,6 +45,7 @@ void	*ft_monitor_die(void *philos)
 	if (philo->public_philo->total_philo == 1)
 	{
 		pthread_mutex_lock(philo->public_philo->dead_lock);
+		pthread_mutex_lock(philo->left_fork);
 		print_passed_time_in_ms(philo->public_philo->start_time,
 			"has taken a fork", ((philo + i)->id), philo);
 		usleep(philo->public_philo->time_die * 1000);
