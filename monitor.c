@@ -78,6 +78,7 @@ void	*ft_monitor_die(void *philos)
 		{
 			if (verify_conditions(philo, i))
 			{
+				printf(KRED);
 				print_passed_time_in_ms(philo->public_philo->start_time,
 					"died ", ((philo + i)->id), NULL);
 				pthread_mutex_lock(philo->public_philo->dead_lock);
