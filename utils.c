@@ -1,17 +1,30 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   utils.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ibennaje <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/05/14 20:32:35 by ibennaje          #+#    #+#             */
+/*   Updated: 2025/05/14 20:32:37 by ibennaje         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "philo.h"
 
-char *skip_spaces(char *num)
+char	*skip_spaces(char *num)
 {
 	while (*num && (*num == ' ' || *num == '\t'))
 		num++;
 	return (num);
 }
 
-int char_is_space(char c)
+int	char_is_space(char c)
 {
 	return (c == ' ' || c == '\t');
 }
-int string_is_all_digit(char *num)
+
+int	string_is_all_digit(char *num)
 {
 	num = skip_spaces(num);
 	if (*num == '+')
@@ -29,16 +42,16 @@ int string_is_all_digit(char *num)
 	return (0);
 }
 
-int parser_check(int ac, char **av)
+int	parser_check(int ac, char **av)
 {
-	int i;
-	int ret_value;
+	int	i;
+	int	ret_value;
 
 	i = 1;
 	if (ac > 6)
 		return (printf("too many args \n"), 0);
 	if (ac < 5)
-		return (printf("not enough args \n") , 0);
+		return (printf("not enough args \n"), 0);
 	while (i < ac)
 	{
 		ret_value = string_is_all_digit(av[i++]);

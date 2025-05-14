@@ -1,6 +1,6 @@
-CC = cc #gcc #-Lpthread -fsanitize=thread -g3  #-fsanitize=thread -g3
+CC = cc #-Lpthread -fsanitize=thread -g3  #-fsanitize=thread -g3
 CFLAGS = -Wall -Wextra -Werror
-SRC = philo.c get_time.c init_data.c simulation.c monitor.c  utils.c utils2.c libft.c 
+SRC = philo.c get_time.c init_data.c simulation.c monitor.c  utils.c libft.c lock_unlock.c ft_do_something.c
 OBJ = $(SRC:.c=.o)
 
 NAME = philo

@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   init_data.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ibennaje <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/05/14 20:06:27 by ibennaje          #+#    #+#             */
+/*   Updated: 2025/05/14 20:06:28 by ibennaje         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "philo.h"
 
 t_public_philo	*init_public_philo(t_public_philo **init_public_philo, int ac,
@@ -35,7 +47,6 @@ static void	init_all_philos(t_private_philo *all_philos,
 	i = 0;
 	while (i < philos_size)
 	{
-		// (all_philos + i)->public_philo[i].time_die;
 		(all_philos + i)->started = 0;
 		(all_philos + i)->count_eat = 0;
 		(all_philos + i)->id = i + 1;
@@ -60,7 +71,7 @@ static void	init_all_philos(t_private_philo *all_philos,
 t_private_philo	*init_called_philo(t_private_philo **called_philo, int ac,
 		char **av)
 {
-	t_public_philo *public_philo;
+	t_public_philo	*public_philo;
 
 	(void)ac;
 	(void)av;

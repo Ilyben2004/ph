@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   monitor.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ibennaje <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/05/14 20:08:05 by ibennaje          #+#    #+#             */
+/*   Updated: 2025/05/14 20:08:10 by ibennaje         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "philo.h"
 
 static int	all_philos_ate(t_private_philo *philos)
@@ -19,53 +31,52 @@ static int	all_philos_ate(t_private_philo *philos)
 	return (1);
 }
 
-// int all_started(t_private_philo * philos)
-// {
-//     int i;
-
-//     i = 0;
-//     while (i < philos->public_philo->total_philo)
-//     {
-
-//         if ()
-//     }
-
-// }
-
-void	*ft_monitor_die(void *philos)
+int	one_philo_sim(t_private_philo *philo, int *i)
 {
-	int				i;
-	int				die_condition;
-	t_private_philo	*philo;
-	int				started;
-
-	i = 0;
-	usleep(1000);
-	philo = (t_private_philo *)philos;
+	*i = 0;
 	if (philo->public_philo->total_philo == 1)
 	{
 		pthread_mutex_lock(philo->public_philo->dead_lock);
 		pthread_mutex_lock(philo->left_fork);
 		print_passed_time_in_ms(philo->public_philo->start_time,
-			"has taken a fork", ((philo + i)->id), philo);
+			"has taken a fork", ((philo)->id), philo);
 		usleep(philo->public_philo->time_die * 1000);
 		print_passed_time_in_ms(philo->public_philo->start_time, "died ",
-			((philo + i)->id), NULL);
+			((philo)->id), NULL);
 		philo->public_philo->end_sim = 1;
 		pthread_mutex_unlock(philo->public_philo->dead_lock);
-		return (NULL);
+		return (0);
 	}
+	return (1);
+}
+
+int	verify_conditions(t_private_philo *philo, int i)
+{
+	int	started;
+	int	die_condition;
+
+	pthread_mutex_lock((philo + i)->started_lock);
+	started = (philo + i)->started;
+	die_condition = get_time_between_2_times((philo
+				+ i)->last_meal) >= philo->public_philo->time_die;
+	pthread_mutex_unlock((philo + i)->started_lock);
+	return (started && die_condition);
+}
+
+void	*ft_monitor_die(void *philos)
+{
+	int				i;
+	t_private_philo	*philo;
+
+	philo = (t_private_philo *)philos;
+	if (one_philo_sim(philo, &i))
+		return (NULL);
 	while (1)
 	{
-		i = 0;
-		while (i < philo->public_philo->total_philo)
+		i = -1;
+		while (++i < philo->public_philo->total_philo)
 		{
-			pthread_mutex_lock((philo + i)->started_lock);
-			started = (philo + i)->started;
-			die_condition = get_time_between_2_times((philo
-						+ i)->last_meal) >= philo->public_philo->time_die;
-			pthread_mutex_unlock((philo + i)->started_lock);
-			if (started && die_condition)
+			if (verify_conditions(philo, i))
 			{
 				print_passed_time_in_ms(philo->public_philo->start_time,
 					"died ", ((philo + i)->id), NULL);
@@ -74,14 +85,9 @@ void	*ft_monitor_die(void *philos)
 				pthread_mutex_unlock(philo->public_philo->dead_lock);
 				return (NULL);
 			}
-			i++;
 		}
-		usleep(50);
-		if (philo->public_philo->optional_arg == 1)
-		{
-			if (all_philos_ate(philo))
-				return (NULL);
-		}
+		if (philo->public_philo->optional_arg == 1 && all_philos_ate(philo))
+			return (NULL);
 	}
-	return (philo);
+	return (NULL);
 }

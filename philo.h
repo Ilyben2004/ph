@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   philo.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ibennaje <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/05/14 20:23:21 by ibennaje          #+#    #+#             */
+/*   Updated: 2025/05/14 20:23:42 by ibennaje         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef PHILO_H
 # define PHILO_H
 # include <pthread.h>
@@ -61,5 +73,13 @@ int					parser_check(int ac, char **av);
 // libft
 int					ft_isdigit(int c);
 long				ft_atoi(const char *str);
-
+// philo do
+void				ft_eat(void *called_philo);
+void				ft_think(void *called_philos);
+void				ft_sleep(void *philos);
+// lock and unlock
+void				ft_mutex_lock(pthread_mutex_t *left, pthread_mutex_t *right,
+						int id, t_private_philo *private_philo);
+void				ft_mutex_unlock(pthread_mutex_t *left,
+						pthread_mutex_t *right, int id);
 #endif
