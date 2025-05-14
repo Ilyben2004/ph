@@ -31,7 +31,7 @@ static int	all_philos_ate(t_private_philo *philos)
 	return (1);
 }
 
-int	one_philo_sim(t_private_philo *philo, int *i)
+static int	one_philo_sim(t_private_philo *philo, int *i)
 {
 	*i = 0;
 	if (philo->public_philo->total_philo == 1)
@@ -50,7 +50,7 @@ int	one_philo_sim(t_private_philo *philo, int *i)
 	return (1);
 }
 
-int	verify_conditions(t_private_philo *philo, int i)
+static int	verify_conditions(t_private_philo *philo, int i)
 {
 	int	started;
 	int	die_condition;
@@ -61,6 +61,14 @@ int	verify_conditions(t_private_philo *philo, int i)
 				+ i)->last_meal) >= philo->public_philo->time_die;
 	pthread_mutex_unlock((philo + i)->started_lock);
 	return (started && die_condition);
+}
+
+static void	*end_sim(t_private_philo *philo)
+{
+	pthread_mutex_lock(philo->public_philo->dead_lock);
+	philo->public_philo->end_sim = 1;
+	pthread_mutex_unlock(philo->public_philo->dead_lock);
+	return (NULL);
 }
 
 void	*ft_monitor_die(void *philos)
@@ -81,10 +89,7 @@ void	*ft_monitor_die(void *philos)
 				printf(KRED);
 				print_passed_time_in_ms(philo->public_philo->start_time,
 					"died ", ((philo + i)->id), NULL);
-				pthread_mutex_lock(philo->public_philo->dead_lock);
-				philo->public_philo->end_sim = 1;
-				pthread_mutex_unlock(philo->public_philo->dead_lock);
-				return (NULL);
+				return (end_sim);
 			}
 		}
 		if (philo->public_philo->optional_arg == 1 && all_philos_ate(philo))

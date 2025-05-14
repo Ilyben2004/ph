@@ -18,7 +18,7 @@
 # include <sys/time.h>
 # include <unistd.h>
 
-#define KRED  "\x1B[31m"
+# define KRED  "\x1B[31m"
 
 typedef struct s_public_philo
 {
