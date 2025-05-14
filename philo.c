@@ -27,11 +27,11 @@ int	clean_it_all(t_private_philo *private_p, pthread_t *thread_id)
 		free((private_p + i)->left_fork);
 		free((private_p + i)->eat_lock);
 		free((private_p + i)->started_lock);
-		free(thread_id + i);
 		i++;
 	}
 	free(public_p);
 	free(private_p);
+	free(thread_id);
 	return (0);
 }
 

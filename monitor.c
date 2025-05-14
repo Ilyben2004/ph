@@ -69,7 +69,7 @@ void	*ft_monitor_die(void *philos)
 	t_private_philo	*philo;
 
 	philo = (t_private_philo *)philos;
-	if (one_philo_sim(philo, &i))
+	if (one_philo_sim(philo, &i) == 0)
 		return (NULL);
 	while (1)
 	{
