@@ -84,4 +84,5 @@ void				ft_mutex_lock(pthread_mutex_t *left, pthread_mutex_t *right,
 						int id, t_private_philo *private_philo);
 void				ft_mutex_unlock(pthread_mutex_t *left,
 						pthread_mutex_t *right, int id);
+void				ft_usleep(long time_to_sleep_in_ms);
 #endif

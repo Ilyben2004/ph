@@ -12,13 +12,13 @@
 
 #include "philo.h"
 
-static void	ft_usleep(long time_to_sleep_in_ms)
+void	ft_usleep(long time_to_sleep_in_ms)
 {
 	struct timeval	start_sleep;
 
 	gettimeofday(&start_sleep, NULL);
 	while (get_time_between_2_times(start_sleep) < time_to_sleep_in_ms)
-		usleep(10);
+		usleep(50);
 }
 
 void	ft_eat(void *called_philo)
@@ -34,8 +34,8 @@ void	ft_eat(void *called_philo)
 	if (philo->started == 0)
 		philo->started = 1;
 	pthread_mutex_unlock(philo->started_lock);
-	print_passed_time_in_ms_protected(philo->public_philo->start_time,
-		"is eating", called_id, philo);
+	print_passed_time_in_ms(philo->public_philo->start_time, "is eating",
+		called_id, philo);
 	ft_usleep(philo->public_philo->time_eat);
 	pthread_mutex_lock(philo->eat_lock);
 	philo->count_eat = philo->count_eat + 1;
@@ -50,8 +50,8 @@ void	ft_think(void *called_philos)
 
 	philo = (t_private_philo *)called_philos;
 	called_id = philo->id;
-	print_passed_time_in_ms_protected(philo->public_philo->start_time,
-		"is thinking", called_id, philo);
+	print_passed_time_in_ms(philo->public_philo->start_time, "is thinking",
+		called_id, philo);
 }
 
 void	ft_sleep(void *philos)
@@ -61,7 +61,7 @@ void	ft_sleep(void *philos)
 
 	philo = (t_private_philo *)philos;
 	called_id = philo->id;
-	print_passed_time_in_ms_protected(philo->public_philo->start_time,
-		"is sleeping", called_id, philo);
+	print_passed_time_in_ms(philo->public_philo->start_time, "is sleeping",
+		called_id, philo);
 	ft_usleep(philo->public_philo->time_sleep);
 }

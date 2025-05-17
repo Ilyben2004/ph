@@ -12,16 +12,19 @@
 
 #include "philo.h"
 
-int	helper_func(t_private_philo *p, void (sim_func(void *)))
+static int	end_simulation(t_private_philo *p)
 {
-	int	execute;
+	int	end_sim;
 
 	pthread_mutex_lock(p->public_philo->dead_lock);
-	execute = !p->public_philo->end_sim;
+	end_sim = p->public_philo->end_sim;
 	pthread_mutex_unlock(p->public_philo->dead_lock);
-	if (execute)
-		return (sim_func((void *)p), 0);
-	return (1);
+	return (end_sim);
+}
+
+int	helper_func(t_private_philo *p, void (sim_func(void *)))
+{
+	return (sim_func((void *)p), 0);
 }
 
 void	*philo_sim(void *called_philo)
@@ -37,17 +40,16 @@ void	*philo_sim(void *called_philo)
 		pthread_mutex_lock(p->eat_lock);
 		condition = (p->public_philo->optional_arg == 0)
 			|| (p->count_eat < p->public_philo->how_many_eats);
-		if (condition == 0)
-		{
-			pthread_mutex_unlock(p->eat_lock);
-			return (NULL);
-		}
 		pthread_mutex_unlock(p->eat_lock);
+		if (condition == 0)
+			return (NULL);
 		if (helper_func(called_philo, ft_eat) || helper_func(called_philo,
 				ft_sleep) || helper_func(called_philo, ft_think))
 			break ;
 		if (p->id % 2 == 1)
 			usleep(300);
+		if (end_simulation(p))
+			break ;
 	}
 	return (NULL);
 }

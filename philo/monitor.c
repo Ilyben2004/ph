@@ -66,8 +66,8 @@ static int	verify_conditions(t_private_philo *philo, int i)
 static void	*end_sim(t_private_philo *philo, int i)
 {
 	pthread_mutex_lock(philo->public_philo->dead_lock);
-	printf(KRED);
 	philo->public_philo->end_sim = 1;
+	printf(KRED);
 	print_passed_time_in_ms(philo->public_philo->start_time, "died ", ((philo
 				+ i)->id), NULL);
 	printf(RESET);
@@ -83,6 +83,7 @@ void	*ft_monitor_die(void *philos)
 	philo = (t_private_philo *)philos;
 	if (one_philo_sim(philo, &i) == 0)
 		return (NULL);
+	usleep(5000);
 	while (1)
 	{
 		i = -1;
