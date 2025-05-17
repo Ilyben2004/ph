@@ -42,12 +42,12 @@ void	ft_mutex_unlock(pthread_mutex_t *left, pthread_mutex_t *right, int id)
 {
 	if (id % 2 == 0)
 	{
-		pthread_mutex_unlock(left);
 		pthread_mutex_unlock(right);
+		pthread_mutex_unlock(left);
 	}
 	else
 	{
-		pthread_mutex_unlock(right);
 		pthread_mutex_unlock(left);
+		pthread_mutex_unlock(right);
 	}
 }

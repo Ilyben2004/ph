@@ -14,10 +14,8 @@
 
 static void	ft_usleep(long time_to_sleep_in_ms)
 {
-	int				i;
 	struct timeval	start_sleep;
 
-	i = 0;
 	gettimeofday(&start_sleep, NULL);
 	while (get_time_between_2_times(start_sleep) < time_to_sleep_in_ms)
 		usleep(10);
