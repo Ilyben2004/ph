@@ -47,7 +47,7 @@ void	*philo_sim(void *called_philo)
 				ft_sleep) || helper_func(called_philo, ft_think))
 			break ;
 		if (p->id % 2 == 1)
-			usleep(500);
+			usleep(300);
 	}
 	return (NULL);
 }

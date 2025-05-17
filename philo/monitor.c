@@ -67,9 +67,10 @@ static void	*end_sim(t_private_philo *philo, int i)
 {
 	pthread_mutex_lock(philo->public_philo->dead_lock);
 	printf(KRED);
+	philo->public_philo->end_sim = 1;
 	print_passed_time_in_ms(philo->public_philo->start_time, "died ", ((philo
 				+ i)->id), NULL);
-	philo->public_philo->end_sim = 1;
+	printf(RESET);
 	pthread_mutex_unlock(philo->public_philo->dead_lock);
 	return (NULL);
 }
