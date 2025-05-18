@@ -58,7 +58,9 @@ int	parser_check(int ac, char **av)
 		if (ret_value == 0)
 			return (printf("please enter numeric args\n"), 0);
 		else if (ret_value == -1)
-			return (printf("please enter posetiive numbers\n"), 0);
+			return (printf("please enter posetive numbers\n"), 0);
+		if (!ft_atoi(av[i - 1]))
+			return (printf("please enter posetive numbers (arg > 0)\n"), 0);
 	}
 	return (1);
 }

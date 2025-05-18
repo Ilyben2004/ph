@@ -21,9 +21,13 @@ int	clean_it_all(t_private_philo *private_p, pthread_t *thread_id)
 	public_p = private_p->public_philo;
 	total_p = public_p->total_philo;
 	i = 0;
+	pthread_mutex_destroy(public_p->dead_lock);
 	free(public_p->dead_lock);
 	while (i < total_p)
 	{
+		pthread_mutex_destroy((private_p + i)->left_fork);
+		pthread_mutex_destroy((private_p + i)->eat_lock);
+		pthread_mutex_destroy((private_p + i)->started_lock);
 		free((private_p + i)->left_fork);
 		free((private_p + i)->eat_lock);
 		free((private_p + i)->started_lock);

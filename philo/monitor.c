@@ -36,15 +36,15 @@ static int	one_philo_sim(t_private_philo *philo, int *i)
 	*i = 0;
 	if (philo->public_philo->total_philo == 1)
 	{
-		pthread_mutex_lock(philo->public_philo->dead_lock);
 		pthread_mutex_lock(philo->left_fork);
 		print_passed_time_in_ms(philo->public_philo->start_time,
 			"has taken a fork", ((philo)->id), philo);
 		usleep(philo->public_philo->time_die * 1000);
+		printf(KRED);
 		print_passed_time_in_ms(philo->public_philo->start_time, "died ",
 			((philo)->id), NULL);
+		printf(RESET);
 		philo->public_philo->end_sim = 1;
-		pthread_mutex_unlock(philo->public_philo->dead_lock);
 		return (0);
 	}
 	return (1);

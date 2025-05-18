@@ -37,7 +37,7 @@ void	*philo_sim(void *called_philo)
 	odd_w = (p->public_philo->total_philo % 2 == 1 && p->id % 2 == 1);
 	if (p->id % 2 == 1)
 		usleep((p->public_philo->time_eat * 1000) / 2);
-	while (1)
+	while (p->public_philo->total_philo > 1)
 	{
 		pthread_mutex_lock(p->eat_lock);
 		condition = (p->public_philo->optional_arg == 0)
