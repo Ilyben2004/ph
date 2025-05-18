@@ -31,8 +31,10 @@ void	*philo_sim(void *called_philo)
 {
 	t_private_philo	*p;
 	int				condition;
+	int				odd_w;
 
 	p = (t_private_philo *)called_philo;
+	odd_w = (p->public_philo->total_philo % 2 == 1 && p->id % 2 == 1);
 	if (p->id % 2 == 1)
 		usleep((p->public_philo->time_eat * 1000) / 2);
 	while (1)
@@ -46,8 +48,8 @@ void	*philo_sim(void *called_philo)
 		if (helper_func(called_philo, ft_eat) || helper_func(called_philo,
 				ft_sleep) || helper_func(called_philo, ft_think))
 			break ;
-		if (p->id % 2 == 1)
-			usleep(300);
+		if (odd_w)
+			usleep(500);
 		if (end_simulation(p))
 			break ;
 	}
