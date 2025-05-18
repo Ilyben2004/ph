@@ -18,7 +18,7 @@ void	ft_usleep(long time_to_sleep_in_ms)
 
 	gettimeofday(&start_sleep, NULL);
 	while (get_time_between_2_times(start_sleep) < time_to_sleep_in_ms)
-		usleep(40);
+		usleep(50);
 }
 
 void	ft_eat(void *called_philo)
